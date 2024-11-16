@@ -37,7 +37,7 @@ const Hero = () => {
                       </q>
                     </p>
 
-                    <p className="w-[200px] ml-[5em] leading-relaxed mt-4 sm:mt-6 xl:w-[500px] tracking-wide font-sans text-sm sm:text-lg xl:text-xl xl:ml-[60px] md:w-[600px] text-justify lg:w-[450px] xl:mt-[1em] ">
+                    <p className="w-[220px] ml-[5em] leading-relaxed mt-4 sm:mt-6 xl:w-[500px] tracking-wide font-sans text-sm sm:text-lg xl:text-xl xl:ml-[60px] md:w-[600px] text-justify lg:w-[450px] xl:mt-[1em] ">
                       Technology for Intelligent Detection of Ecosystem Species
                       is a cutting-edge system that uses advanced technology to
                       track and identify marine species in their natural
@@ -68,7 +68,7 @@ const Hero = () => {
         <section
           id="home"
           className=" h-[250px] sm:h-[300px] md:h-[400px] lg:h-[500px] absolute">
-          <div className="relative w-full sm:w-3/4 md:w-[450px] lg:w-[350px] xl:w-[70%] xl:top-[-40em] xl:left-[55em] mx-auto md:top-[-13em] md:left-[1em] lg:top-[140px] z-[10] top-[-2em] left-[-2em]">
+          <div className="relative w-full sm:w-3/4 md:w-[450px] lg:w-[350px] xl:w-[70%] xl:top-[-40em] xl:left-[55em] mx-auto md:top-[-13em] md:left-[1em] lg:top-[140px] z-[10] top-[-5em] left-[-2em]">
             <div className="flex justify-center items-center sm:mt-[-30px] md:mt-[-20px]">
               <Carousel className="h-[200px] sm:h-[250px] md:h-[350px] lg:h-[400px] xl:w-[620px] w-[200px] ml-16 xl:ml-2 rounded-[10px] xl:h-[550px]" />
             </div>
