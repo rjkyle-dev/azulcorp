@@ -6,7 +6,7 @@ import Hero from "../components/Hero/Hero";
 const Home = () => {
   return (
     <>
-      <div>
+      <div className="w-full h-full ">
         <div className="h-[700px] relative overflow-visible">
           <video
             autoPlay
