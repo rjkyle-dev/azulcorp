@@ -12,7 +12,7 @@ import PlaceRoute from "./Pages/PlaceRoute";
 const App = () => {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/azulcorp">
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
