@@ -8,7 +8,7 @@ import BentoGridDemo from "../ui/Bento/Bento-grid-components";
 const Hero = () => {
   return (
     <>
-      <section id="home" className="h-[100%] w-full">
+      <section id="home" className="h-[100%] w-full overflow-hidden">
         <div className="h-[100%] relative mt-[60px] w-full md:h-[655px] sm:h-[800px] lg:h-[255px] xl:h-[100%]">
           <div className="flex flex-col md:flex-row justify-center items-center p-6 gap-36">
             <div className="container grid grid-cols-1 gap-4 mb-20 sm:mb-32 md:mb-44 sm:mt-20 relative">
@@ -16,7 +16,7 @@ const Hero = () => {
                 <div className="text-white px-4 sm:px-10 md:px-12 lg:px-10 xl:px-24 xl:mt-[-270px] md:top-[-40px] relative xl:left-[-100px] xl:top-[70px] lg:left-[50px]">
                   <h1
                     data-aos="fade-up"
-                    className="text-blue-700 text-5xl sm:text-7xl lg:text-8xl xl:text-9xl font-extrabold xl:tracking-[0.40em] tracking-widest sm:text-sky-700 md:text-[10em] md:ml-[70px]">
+                    className="text-blue-700 text-5xl sm:text-7xl lg:text-8xl xl:text-9xl font-extrabold xl:tracking-[0.40em] tracking-widest md:text-[10em] md:ml-[70px]">
                     TIDES
                   </h1>
 
