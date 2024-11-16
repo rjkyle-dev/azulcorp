@@ -41,10 +41,10 @@ const ResponsiveMenu = ({ showMenu, setShowMenu }) => {
           </ul>
         </nav>
       </div>
-      <div className="footer relative">
+      <div className="footer relative bottom-8">
         <h1 className="text-sm flex">
           <span className="flex items-center text-2xl">
-            © 2024 <img src={Logo} className="h-9 ml-2" alt="" />
+            ©<img src={Logo} className="h-9 ml-2" alt="" />
             <a
               href="https://www.facebook.com/profile.php?id=61568479808035&mibextid=ZbWKwL"
               className="ml-2 text-sm font-bold font-serif">
