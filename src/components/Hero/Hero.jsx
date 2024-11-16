@@ -24,7 +24,7 @@ const Hero = () => {
                 <div className="w-full xl:absolute xl:top-[-50px] xl:left-[8rem] lg:left-5 lg:top-[70px] mt-[90px] ">
                   <div className="text-white px-4 sm:px-10 md:px-12 lg:px-10 xl:px-24 xl:mt-[-270px] md:top-[-12em] relative xl:left-[-100px] xl:top-[17em] lg:left-[50px] xl:w-[100%] right-14 top-[-5em]">
                     <h1
-                      // data-aos="fade"
+                      data-aos="fade"
                       className="text-blue-700 text-7xl sm:text-7xl lg:text-8xl xl:text-9xl font-extrabold xl:tracking-[0.40em] tracking-widest sm:text-sky-700 md:text-[10em] md:ml-[70px] xl:ml-20 ml-[1em] ">
                       TIDES
                     </h1>
@@ -48,10 +48,10 @@ const Hero = () => {
                     </p>
 
                     <div
-                      // data-aos="slide-right"
-                      // data-aos-delay="200"
-                      // data-aos-once="true"
-                      // data-aos-easing="linear"
+                      data-aos="slide-right"
+                      data-aos-delay="200"
+                      data-aos-once="true"
+                      data-aos-easing="linear"
                       className="pt-5 sm:mt-10 md:mt-[-1%] xl:ml-[60px] m-auto ml-[4em]">
                       <button
                         type="button"
@@ -75,7 +75,7 @@ const Hero = () => {
           </div>
         </section>
       </div>
-      <div className="w-full relative top-[5em] xl:top-[15em]">
+      <div data-aos="fade-up" className="w-full relative top-[5em] xl:top-[15em]">
         <BentoGridDemo />
         <Footer />
       </div>
