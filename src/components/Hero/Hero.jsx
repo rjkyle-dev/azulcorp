@@ -72,7 +72,9 @@ const Hero = () => {
           id="home"
           className=" h-[250px] sm:h-[300px] md:h-[400px] lg:h-[500px] absolute">
           <div className="relative w-full sm:w-3/4 md:w-[450px] lg:w-[350px] xl:w-[70%] xl:top-[-40em] xl:left-[55em] mx-auto md:top-[-13em] md:left-[1em] lg:top-[140px] z-[10] top-[-9em] left-[-2em]">
-            <div className="flex justify-center items-center sm:mt-[-30px] md:mt-[-20px]">
+            <div
+              data-aos="flip-in-right"
+              className="flex justify-center items-center sm:mt-[-30px] md:mt-[-20px]">
               <Carousel className="h-[200px] sm:h-[250px] md:h-[350px] lg:h-[400px] xl:w-[620px] w-[200px] ml-16 xl:ml-2 rounded-[10px] xl:h-[550px]" />
             </div>
           </div>
