@@ -12,7 +12,7 @@ const Home = () => {
             autoPlay
             loop
             muted
-            className="absolute right-0 top-0 w-full aspect-video object-cover z-[-1]">
+            className="h-full absolute right-0 top-0 w-full aspect-video object-cover z-[-1]">
             <source src={NatureVid} type="video/mp4" />
           </video>
           <Hero />
