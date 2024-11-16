@@ -15,10 +15,10 @@ export default {
   theme: {
     // screens: {
     //    m:'360px',
-    //    sm: '480px',
+    //    sm: '640px',
     //    md: '768px',
     //    lg: '1024px',
-    //    xl: '1200px'
+    //    xl: '1280px'
     // },
 
     extend: {

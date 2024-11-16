@@ -8,8 +8,19 @@ import Feature from "./Pages/Features";
 import Contact from "./Pages/Contact";
 import Nopages from "./Pages/Nopages";
 import PlaceRoute from "./Pages/PlaceRoute";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
+import "animate.css/animate.compat.css";
 const App = () => {
+  React.useEffect(() => {
+    AOS.init({
+      offset: 100,
+      duration: 900,
+      easing: "ease-in-sine",
+      delay: 100,
+    });
+    AOS.refresh();
+  }, []);
   return (
     <>
       <BrowserRouter basename="/azulcorp">
