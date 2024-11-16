@@ -32,7 +32,10 @@ const Hero = () => {
                     <p className="font-bold text-sm sm:text-xl xl:text-2xl text-white font-serif mt-4 sm:mt-6 xl:ml-[-16em] xl:w-[120%] md:w-[600px] md:text-center lg:ml-[-100px] w-[400px] ml-[5em]">
                       <q
                         className="tracking-widest ml-[-5px]"
-                        data-aos="fade-up">
+                        data-aos="fade-up"
+                        data-aos-delay="200"
+                        data-aos-once="true"
+                        data-aos-easing="linear">
                         Explore Discover Conserve
                       </q>
                     </p>
@@ -75,7 +78,9 @@ const Hero = () => {
           </div>
         </section>
       </div>
-      <div data-aos="fade-up" className="w-full relative top-[5em] xl:top-[15em]">
+      <div
+        data-aos="fade-up"
+        className="w-full relative top-[5em] xl:top-[15em]">
         <BentoGridDemo />
         <Footer />
       </div>
