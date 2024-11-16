@@ -1,12 +1,11 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
-import Concha from "../../assets/team-profile/Philip.jpeg";
-import Nigas from "../../assets/team-profile/ÑIGAS,ENJE A ..jpg";
 import Selle from "../../assets/team-profile/JheANn.jpg";
 import Kyle from "../../assets/team-profile/kyle.jpg";
+import Concha from "../../assets/team-profile/Philip.jpeg";
+import Nigas from "../../assets/team-profile/ÑIGAS,ENJE A ..jpg";
 import Footer from "../../components/Footer/Footer";
-
 
 const About = () => {
   return (
@@ -43,7 +42,7 @@ const About = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* CEO Profile */}
             <div className="relative w-full h-96 flex flex-col items-center">
-              <div className="absolute top-32 inset-8 bg-indigo-300 h-[220px] rounded-lg z-0 text-center">
+              <div className="absolute top-32 inset-8 bg-indigo-300 h-[220px] rounded-lg z-0 text-center hover:shadow-2xl hover:scale-[1.01] ">
                 <h1 className="text-2xl font-bold text-blue-800 mt-16 tracking-widest">
                   CEO
                 </h1>
@@ -62,7 +61,7 @@ const About = () => {
 
             {/* COO Profile */}
             <div className="relative w-full h-96 flex flex-col items-center">
-              <div className="absolute top-32 inset-8 bg-indigo-300 h-[220px] rounded-lg z-0 text-center">
+              <div className="absolute top-32 inset-8 bg-indigo-300 h-[220px] rounded-lg z-0 text-center hover:shadow-2xl hover:scale-[1.01]">
                 <h1 className="text-2xl font-bold text-blue-800 mt-16 tracking-widest">
                   COO
                 </h1>
@@ -81,7 +80,7 @@ const About = () => {
 
             {/* CMO Profile */}
             <div className="relative w-full h-96 flex flex-col items-center">
-              <div className="absolute top-32 inset-8 bg-indigo-300 h-[220px] rounded-lg z-0 text-center">
+              <div className="absolute top-32 inset-8 bg-indigo-300 h-[220px] rounded-lg z-0 text-center hover:shadow-2xl hover:scale-[1.01]">
                 <h1 className="text-2xl font-bold text-blue-800 mt-16 tracking-widest">
                   CMO
                 </h1>
@@ -100,7 +99,7 @@ const About = () => {
 
             {/* CTO Profile */}
             <div className="relative w-full h-96 flex flex-col items-center">
-              <div className="absolute top-32 inset-8 bg-indigo-300 h-[220px] rounded-lg z-0 text-center">
+              <div className="absolute top-32 inset-8 bg-indigo-300 h-[220px] rounded-lg z-0 text-center hover:shadow-2xl hover:scale-[1.01]">
                 <h1 className="text-2xl font-bold text-blue-800 mt-16 tracking-widest">
                   CTO
                 </h1>
@@ -119,9 +118,7 @@ const About = () => {
           </div>
         </div>
       </section>
-      <section className="container mx-auto h-auto mt-[250px] mb-10 px-4 ml-[10em]">
-        <Footer />
-      </section>
+      <Footer />
     </>
   );
 };

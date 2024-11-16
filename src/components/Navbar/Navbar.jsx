@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import Logo from "../../assets/logo.png";
 import { NavLink, Link } from "react-router-dom";
 import ResponsiveMenu from "./ResponsiveMenu";
-import { HiMenuAlt3, HiMenuAlt1 } from "react-icons/hi";
-import { HiOutlineMenu } from "react-icons/hi";
-
+import  {HiOutlineMenu, HiMenuAlt1}  from "react-icons/hi";
+// import  BiMenuAltRight  from "react-icons/bi";
+// import { GrMenu, BiMenuAltRight } from "react-icons/hi";
 export const NavbarLinks = [
   { name: "Home", link: "/" },
   { name: "Features", link: "/features" },
@@ -21,59 +21,51 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="fixed top-0 right-0 w-full z-50 bg-white backdrop-blur-sm shadow-md border-b-2 border-black">
-        <div className="container py-3">
+      <nav className="fixed top-0 left-0 w-screen z-50 bg-white backdrop-blur-sm shadow-md border-b-2 border-gray-200">
+        <div className="container mx-auto px-4 sm:px-8 py-3">
           <div className="flex justify-between items-center">
+            {/* Logo */}
             <div className="flex items-center gap-4 font-bold text-2xl">
               <Link to={"/"} onClick={() => window.scrollTo(0, 0)}>
-                <img src={Logo} alt="" className="h-16 ml-4" />
+                <img src={Logo} alt="Logo" className="h-12" />
               </Link>
               <span>Azul Corp</span>
             </div>
-            {/* Navbar Links for medium and larger screens */}
-            <div className="hidden md:block">
-              <ul className="flex items-center gap-6">
-                <li className="py-4 font-bold">
-                  <NavLink to="/" activeClassName="active">
-                    Home
-                  </NavLink>
-                </li>
-                <li className="py-4 font-bold">
-                  <NavLink to="/features" activeClassName="active">
-                    Features
-                  </NavLink>
-                </li>
-                <li className="py-4 font-bold">
-                  <NavLink to="/about" activeClassName="active">
-                    About
-                  </NavLink>
-                </li>
-                <li className="py-4 font-bold">
-                  <NavLink to="/contact" activeClassName="active">
-                    Contact
-                  </NavLink>
-                </li>
+            {/* Navbar Links (Desktop View) */}
+            <div className="hidden md:flex">
+              <ul className="flex items-center gap-6 font-bold">
+                {NavbarLinks.map((data) => (
+                  <li key={data.name}>
+                    <NavLink
+                      to={data.link}
+                      activeClassName="active"
+                      className="hover:text-primary transition-colors duration-300">
+                      {data.name}
+                    </NavLink>
+                  </li>
+                ))}
               </ul>
             </div>
-            {/* Mobile Menu Icon (visible on screens smaller than md) */}
-            <div className="md:hidden block">
+            {/* Mobile Menu Icon */}
+            <div className="md:hidden">
               {showMenu ? (
                 <HiMenuAlt1
                   onClick={toggleMenu}
-                  className="cursor-pointer transition-all"
+                  className="cursor-pointer"
                   size={30}
                 />
               ) : (
                 <HiOutlineMenu
                   onClick={toggleMenu}
-                  className="cursor-pointer transition-all"
+                  className="cursor-pointer"
                   size={30}
                 />
               )}
             </div>
           </div>
         </div>
-        <ResponsiveMenu setShowMenu={setShowMenu} showMenu={showMenu} />
+        {/* Responsive Menu */}
+        <ResponsiveMenu showMenu={showMenu} setShowMenu={setShowMenu} />
       </nav>
     </>
   );

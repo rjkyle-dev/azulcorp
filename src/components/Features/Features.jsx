@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable no-unused-vars */
-import { ThreeDCardDemo } from "../ui/3d-card-components";
 import Footer from "../../components/Footer/Footer";
+import { ThreeDCardDemo } from "../ui/3d-card-components";
 
 import React from "react";
 
@@ -113,9 +113,7 @@ const Feature = () => {
           </div>
         </div>
       </section>
-      <section className="container mx-auto h-auto mt-[250px] mb-10 px-4 ml-[10em]">
-        <Footer />
-      </section>
+      <Footer />
     </>
   );
 };

@@ -12,13 +12,13 @@ export function ThreeDCardDemo() {
         <CardItem
           translateZ="50"
           className="text-lg sm:text-xl font-bold text-neutral-600 dark:text-white">
-          Make things float in air
+          Start Your Marine Adventure
         </CardItem>
         <CardItem
           as="p"
           translateZ="60"
           className="text-neutral-500 text-sm sm:text-base max-w-sm mt-2 dark:text-neutral-300">
-          Hover over this card to unleash the power of CSS perspective
+
         </CardItem>
         <CardItem translateZ="100" className="w-full mt-4">
           <img

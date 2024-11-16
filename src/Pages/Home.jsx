@@ -42,18 +42,17 @@ const Home = () => {
   return (
     <>
       <div>
-        <div className="h-[500px] sm:h-[600px] md:h-[700px] lg:h-[400px] relative">
+        <div className="w-[100%] relative">
           <video
             autoPlay
             loop
             muted
-            className="absolute right-0 top-0 w-full object-cover z-[-1]">
+            className="absolute right-0 top-0 w-[100%] h-[700px] aspect-video object-cover z-[-1]">
             <source src={NatureVid} type="video/mp4" />
           </video>
           <Hero />
         </div>
       </div>
-      
     </>
   );
 };
