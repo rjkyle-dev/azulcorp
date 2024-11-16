@@ -42,7 +42,7 @@ const About = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* CEO Profile */}
             <div className="relative w-full h-96 flex flex-col items-center">
-              <div className="absolute top-32 inset-8 bg-indigo-300 h-[220px] rounded-lg z-0 text-center hover:shadow-2xl hover:scale-[1.01] ">
+              <div className="absolute top-32 inset-8 bg-indigo-300 h-[220px] rounded-lg z-0 text-center hover:shadow-2xl hover:scale-[1.01] shadow-lg">
                 <h1 className="text-2xl font-bold text-blue-800 mt-16 tracking-widest">
                   CEO
                 </h1>
@@ -61,7 +61,7 @@ const About = () => {
 
             {/* COO Profile */}
             <div className="relative w-full h-96 flex flex-col items-center">
-              <div className="absolute top-32 inset-8 bg-indigo-300 h-[220px] rounded-lg z-0 text-center hover:shadow-2xl hover:scale-[1.01]">
+              <div className="absolute top-32 inset-8 bg-indigo-300 h-[220px] rounded-lg z-0 text-center hover:shadow-2xl hover:scale-[1.01] shadow-lg">
                 <h1 className="text-2xl font-bold text-blue-800 mt-16 tracking-widest">
                   COO
                 </h1>
@@ -80,7 +80,7 @@ const About = () => {
 
             {/* CMO Profile */}
             <div className="relative w-full h-96 flex flex-col items-center">
-              <div className="absolute top-32 inset-8 bg-indigo-300 h-[220px] rounded-lg z-0 text-center hover:shadow-2xl hover:scale-[1.01]">
+              <div className="absolute top-32 inset-8 bg-indigo-300 h-[220px] rounded-lg z-0 text-center hover:shadow-2xl hover:scale-[1.01] shadow-lg">
                 <h1 className="text-2xl font-bold text-blue-800 mt-16 tracking-widest">
                   CMO
                 </h1>
@@ -99,7 +99,7 @@ const About = () => {
 
             {/* CTO Profile */}
             <div className="relative w-full h-96 flex flex-col items-center">
-              <div className="absolute top-32 inset-8 bg-indigo-300 h-[220px] rounded-lg z-0 text-center hover:shadow-2xl hover:scale-[1.01]">
+              <div className="absolute top-32 inset-8 bg-indigo-300 h-[220px] rounded-lg z-0 text-center hover:shadow-2xl hover:scale-[1.01] shadow-lg">
                 <h1 className="text-2xl font-bold text-blue-800 mt-16 tracking-widest">
                   CTO
                 </h1>
