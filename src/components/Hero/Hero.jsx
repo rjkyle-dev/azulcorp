@@ -64,20 +64,23 @@ const Hero = () => {
 
             <section
               id="home"
-              className="h-[250px] sm:h-[300px] md:h-[400px] lg:h-[500px] xl:h-[600px]">
+              className="h-[250px] sm:h-[300px] md:h-[400px] lg:h-[500px] xl:h-[600px] z-[10]">
               <div className="relative w-full sm:w-3/4 md:w-[450px] lg:w-[350px] xl:w-[70%] xl:top-[100px] mx-auto md:top-[400px] lg:top-[140px]">
-                <div data-aos="zoom-out" className="flex justify-center items-center sm:mt-[-30px] md:mt-[-20px]">
+                <div
+                  data-aos="zoom-out"
+                  className="flex justify-center items-center sm:mt-[-30px] md:mt-[-20px]">
                   <Carousel className="h-[200px] sm:h-[250px] md:h-[350px] lg:h-[400px] xl:h-[500px] xl:w-[620px] w-full rounded-[10px]" />
                 </div>
               </div>
             </section>
           </div>
         </div>
-      </section>
-
-      <section className="h-auto w-full mt-[300px]">
         <BentoGridDemo />
       </section>
+
+      {/* <section className="h-auto w-full pt-[300px]">
+        <BentoGridDemo />
+      </section> */}
 
       <Footer />
     </>
