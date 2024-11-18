@@ -29,7 +29,7 @@ const Hero = () => {
                       TIDES
                     </h1>
 
-                    <p className="font-bold text-sm sm:text-xl xl:text-2xl text-white font-serif mt-4 sm:mt-6 xl:ml-[-16em] xl:w-[120%] md:w-[600px] md:text-center lg:ml-[-40px] w-[400px] ml-[5em] sm:ml-[8.3em]">
+                    <p className="font-bold text-sm sm:text-xl xl:text-2xl text-white font-serif mt-4 sm:mt-6 xl:ml-[-16em] xl:w-[120%] md:w-[600px] md:text-center lg:ml-[-40px] w-[400px] ml-[5em] sm:ml-[8.3em] md:ml-[4em]">
                       <q
                         className="tracking-widest ml-[-5px]"
                         data-aos="fade-up"
@@ -58,7 +58,7 @@ const Hero = () => {
                       className="pt-5 sm:mt-2 md:mt-[-1%] xl:ml-[60px] m-auto ml-[4em] lg:ml-[59px] sm:ml-28">
                       <button
                         type="button"
-                        className="bg-sky-600 hover:bg-sky-700 text-white font-semibold rounded-lg px-6 py-2 text-sm sm:text-base shadow-md md:px-[80px] md:mt-5 md:w-[250px] md:py-3 md:ml-[20px]">
+                        className="bg-sky-600 hover:bg-sky-700 text-white font-semibold rounded-lg px-6 py-2 text-sm sm:text-base shadow-md md:px-[80px] md:mt-5 md:w-[250px] md:py-3 md:ml-[2px]">
                         Explore More
                       </button>
                     </div>
@@ -70,8 +70,8 @@ const Hero = () => {
         </section>
         <section
           id="home"
-          className=" h-[250px] sm:h-[300px] md:h-[400px] lg:h-[500px] absolute sm:top-[115%]">
-          <div className="relative w-full sm:w-3/4 md:w-[450px] lg:w-[450px] xl:w-[70%] xl:top-[-40em] xl:left-[55em] mx-auto md:top-[-22em] md:left-[9em] lg:top-[-39em] lg:left-[39em] z-[10] top-[-9em] left-[-2em] sm:top-[-16em]">
+          className=" h-[250px] sm:h-[300px] md:h-[400px] lg:h-[500px] absolute sm:top-[120%]">
+          <div className="relative w-full sm:w-3/4 md:w-[450px] lg:w-[450px] xl:w-[70%] xl:top-[-45em] xl:left-[55em] mx-auto md:top-[-22em] md:left-[9em] lg:top-[-39em] lg:left-[39em] z-[10] top-[-9em] left-[-2em] sm:top-[-16em]">
             <div
               data-aos="flip-in-right"
               className="flex justify-center items-center sm:mt-[-30px] md:mt-[-20px]">
