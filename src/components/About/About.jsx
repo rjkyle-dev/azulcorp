@@ -83,7 +83,7 @@ const About = () => {
             </div>
 
             <div className="relative w-full h-96 flex flex-col items-center">
-              <div className="absolute top-32 inset-8 bg-indigo-300 h-[260px] lg:h-[250px]  rounded-lg z-0 text-center hover:shadow-2xl hover:scale-[1.01] shadow-lg">
+              <div className="absolute top-32 inset-8 bg-indigo-300 h-[250px] lg:h-[250px]  rounded-lg z-0 text-center hover:shadow-2xl hover:scale-[1.01] shadow-lg">
                 <h1 className="text-2xl font-bold text-white mt-16 tracking-widest bg-sky-700 py-2 ml-14 w-[120px] rounded-lg">
                   CMO
                 </h1>
