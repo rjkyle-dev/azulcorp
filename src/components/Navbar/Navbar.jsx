@@ -29,7 +29,7 @@ const Navbar = () => {
               <Link to={"/"} onClick={() => window.scrollTo(0, 0)}>
                 <img src={Logo} alt="Logo" className="h-12" />
               </Link>
-              <span>Azul</span>
+              <span>Azul Corp</span>
             </div>
             {/* Navbar Links (Desktop View) */}
             <div className="hidden md:flex">
