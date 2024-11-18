@@ -2,6 +2,13 @@
 /* eslint-disable react/prop-types */
 import React from "react";
 import Try from "../../../assets/image/Carousel/The Ultimate Philippines Travel Guide_ Everything You Need to Know!.jpg";
+import davao from "../../../assets/image/davao.jpg";
+import samal from "../../../assets/image/Samal Island - Ghost Nudibranch.jpg";
+import panabo from "../../../assets/image/Panabo City- Hawk Sea Turtle.jpg";
+import mati from "../../../assets/image/Mati City Olive Ridley.jpg";
+import matis from "../../../assets/image/mati.jpg";
+import lupon from "../../../assets/image/lupon.jpg";
+// import lupon from "../../../assets/image/lupon.jpg";
 import Logo from "../../../assets/logo.png";
 
 // Custom BentoGrid component
@@ -39,15 +46,7 @@ const BentoGridItem = ({ title, description, header, icon, className }) => {
 // const Skeleton = () => (
 //   <div className="flex w-full h-24 rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-800 to-neutral-100 dark:to-neutral-900"></div>
 // );
-const Skeleton = () => (
-  <div className="flex w-full h-[150px] rounded-xl overflow-hidden ">
-    <img
-      src={Try} // Replace this with your desired image URL
-      alt="Skeleton"
-      className="w-full h-full object-cover"
-    />
-  </div>
-);
+
 
 const Davao = () => (
   <h3 className="text-lg font-normal text-neutral-800 dark:text-white">Explore the birth of groundbreaking ideas and inventions.</h3>
@@ -71,32 +70,75 @@ const Tarragona = () => (
   <h3 className="text-lg font-normal text-neutral-800 dark:text-white">Explore the birth of groundbreaking ideas and inventions.</h3>
 );
 
-
+const DavaoCity = () => (
+  <div className="flex w-full h-[150px] rounded-xl overflow-hidden ">
+    <img
+      src={davao} // Replace this with your desired image URL
+      alt="Skeleton"
+      className="w-full h-full object-cover"
+    />
+  </div>
+);
+const Samal_Island = () => (
+  <div className="flex w-full h-[150px] rounded-xl overflow-hidden ">
+    <img
+      src={samal} // Replace this with your desired image URL
+      alt="Skeleton"
+      className="w-full h-full object-cover"
+    />
+  </div>
+);
+const Lupons = () => (
+  <div className="flex w-full h-[150px] rounded-xl overflow-hidden ">
+    <img
+      src={lupon} // Replace this with your desired image URL
+      alt="Skeleton"
+      className="w-full h-full object-cover"
+    />
+  </div>
+);
+const Matis = () => (
+  <div className="flex w-full h-[150px] rounded-xl overflow-hidden ">
+    <img
+      src={mati} // Replace this with your desired image URL
+      alt="Skeleton"
+      className="w-full h-full object-cover"
+    />
+  </div>
+);
+const Panabos = () => (
+  <div className="flex w-full h-[150px] rounded-xl overflow-hidden ">
+    <img
+      src={panabo} // Replace this with your desired image URL
+      alt="Skeleton"
+      className="w-full h-full object-cover"
+    />
+  </div>
+);
 // Items data with images
 const items = [
   {
     title: "Davao City",
     description: <Davao />,
-    header: <Skeleton />,
+    header: <DavaoCity />,
     icon: <img src={Logo} alt="Dawn of Innovation" className="rounded-full" />,
   },
   {
     title: "Samal Island",
     description: <Samal />,
-    header: <Skeleton />,
+    header: <Samal_Island />,
     icon: <img src={Logo} alt="Digital Revolution" className="rounded-full" />,
   },
   {
     title: "Mati City",
     description: <Mati />,
-    header: <Skeleton />,
+    header: < Matis/>,
     icon: <img src={Logo} alt="Art of Design" className="rounded-full" />,
   },
   {
     title: "Lupon",
-    description:
-      < Lupon />,
-    header: <Skeleton />,
+    description: <Lupon />,
+    header: <Lupons />,
     icon: (
       <img src={Logo} alt="Power of Communication" className="rounded-full" />
     ),
@@ -104,7 +146,7 @@ const items = [
   {
     title: "Panabo City",
     description: <Panabo />,
-    header: <Skeleton />,
+    header: <Panabos />,
     icon: (
       <img src={Logo} alt="Pursuit of Knowledge" className="rounded-full" />
     ),
@@ -112,13 +154,13 @@ const items = [
   {
     title: "San Isidro (Davao Oriental)",
     description: <San_Isidro />,
-    header: <Skeleton />,
+    // header: <Skeleton />,
     icon: <img src={Logo} alt="Joy of Creation" className="rounded-full" />,
   },
   {
     title: "Tarragona",
     description: <Tarragona />,
-    header: <Skeleton />,
+    // header: <Skeleton />,
     icon: <img src={Logo} alt="Spirit of Adventure" className="rounded-full" />,
   },
 ];
