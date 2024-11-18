@@ -9,9 +9,9 @@ const Footer = () => {
   return (
     <div className="w-[100%] bg-gray-100 py-10 relative sm:pl-10">
       <div className="container mx-auto px-4">
-        {/* Footer grid layout */}
+     
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-10">
-          {/* Email */}
+         
           <div className="flex items-center">
             <img src={email} className="w-6 lg:w-8" alt="Email Icon" />
             <a
