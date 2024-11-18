@@ -40,13 +40,15 @@ const About = () => {
         {/* Team Section */}
         <div className="w-full mt-24 px-4">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-            {/* CEO Profile */}
             <div className="relative w-full h-96 flex flex-col items-center">
-              <div className="absolute top-32 inset-8 bg-indigo-300 h-[220px] rounded-lg z-0 text-center hover:shadow-2xl hover:scale-[1.01] shadow-lg">
-                <h1 className="text-2xl font-bold text-blue-800 mt-16 tracking-widest">
+              <div className="absolute top-32 inset-8 bg-indigo-300 h-[250px] rounded-lg z-0 text-center hover:shadow-2xl hover:scale-[1.01] shadow-lg">
+                <h1 className="text-2xl font-bold text-white mt-16 tracking-widest bg-sky-700 py-2 ml-14 w-[120px] rounded-lg">
                   CEO
                 </h1>
                 <h3 className="text-lg font-semibold text-black mt-8">
+                  Philip P. Concha
+                </h3>
+                <h3 className="text-lg font-semibold text-gray-600 mt-8">
                   Bachelor of Science Information Systems
                 </h3>
               </div>
@@ -59,13 +61,15 @@ const About = () => {
               </div>
             </div>
 
-            {/* COO Profile */}
             <div className="relative w-full h-96 flex flex-col items-center">
-              <div className="absolute top-32 inset-8 bg-indigo-300 h-[220px] rounded-lg z-0 text-center hover:shadow-2xl hover:scale-[1.01] shadow-lg">
-                <h1 className="text-2xl font-bold text-blue-800 mt-16 tracking-widest">
+              <div className="absolute top-32 inset-8 bg-indigo-300 h-[250px] rounded-lg z-0 text-center hover:shadow-2xl hover:scale-[1.01] shadow-lg">
+                <h1 className="text-2xl font-bold text-white mt-16 tracking-widest bg-sky-700 py-2 ml-14 w-[120px] rounded-lg">
                   COO
                 </h1>
                 <h3 className="text-lg font-semibold text-black mt-8">
+                  Enje A. Ñigas
+                </h3>
+                <h3 className="text-lg font-semibold text-gray-600 mt-8">
                   Bachelor of Science Information Systems
                 </h3>
               </div>
@@ -78,13 +82,15 @@ const About = () => {
               </div>
             </div>
 
-            {/* CMO Profile */}
             <div className="relative w-full h-96 flex flex-col items-center">
-              <div className="absolute top-32 inset-8 bg-indigo-300 h-[220px] rounded-lg z-0 text-center hover:shadow-2xl hover:scale-[1.01] shadow-lg">
-                <h1 className="text-2xl font-bold text-blue-800 mt-16 tracking-widest">
+              <div className="absolute top-32 inset-8 bg-indigo-300 h-[250px] rounded-lg z-0 text-center hover:shadow-2xl hover:scale-[1.01] shadow-lg">
+                <h1 className="text-2xl font-bold text-white mt-16 tracking-widest bg-sky-700 py-2 ml-14 w-[120px] rounded-lg">
                   CMO
                 </h1>
                 <h3 className="text-lg font-semibold text-black mt-8">
+                  Jhe-anne Selle
+                </h3>
+                <h3 className="text-lg font-semibold text-gray-600 mt-8">
                   Bachelor of Science Information Systems
                 </h3>
               </div>
@@ -97,13 +103,15 @@ const About = () => {
               </div>
             </div>
 
-            {/* CTO Profile */}
             <div className="relative w-full h-96 flex flex-col items-center">
-              <div className="absolute top-32 inset-8 bg-indigo-300 h-[220px] rounded-lg z-0 text-center hover:shadow-2xl hover:scale-[1.01] shadow-lg">
-                <h1 className="text-2xl font-bold text-blue-800 mt-16 tracking-widest">
+              <div className="absolute top-32 inset-8 bg-indigo-300 h-[250px] rounded-lg z-0 text-center hover:shadow-2xl hover:scale-[1.01] shadow-lg px-5">
+                <h1 className="text-2xl font-bold text-white mt-16 tracking-widest bg-sky-700 py-2 ml-10 w-[120px] rounded-lg">
                   CTO
                 </h1>
                 <h3 className="text-lg font-semibold text-black mt-8">
+                  RJ Kyle G. Labrador
+                </h3>
+                <h3 className="text-lg font-semibold text-gray-600 mt-8">
                   Bachelor of Science Information Systems
                 </h3>
               </div>

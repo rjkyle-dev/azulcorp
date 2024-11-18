@@ -31,7 +31,7 @@ const App = () => {
             <Route path="/features" element={<Feature />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<Nopages />} />
-            <Route path="/place" element={<PlaceRoute />} />
+            {/* <Route path="/place" element={<PlaceRoute />} /> */}
           </Route>
         </Routes>
       </BrowserRouter>

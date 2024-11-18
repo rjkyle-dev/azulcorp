@@ -6,7 +6,7 @@ import  {HiOutlineMenu, HiMenuAlt1}  from "react-icons/hi";
 // import  BiMenuAltRight  from "react-icons/bi";
 // import { GrMenu, BiMenuAltRight } from "react-icons/hi";
 export const NavbarLinks = [
-  { name: "Home", link: "/" },
+  { name: "Home", link: "/", id: "home" },
   { name: "Features", link: "/features" },
   { name: "About", link: "/about" },
   { name: "Contact", link: "/contact" },
@@ -33,7 +33,7 @@ const Navbar = () => {
             </div>
             {/* Navbar Links (Desktop View) */}
             <div className="hidden md:flex">
-              <ul className="flex items-center gap-6 font-bold">
+              <ul className="flex items-center gap-16 font-bold text-lg">
                 {NavbarLinks.map((data) => (
                   <li key={data.name}>
                     <NavLink
