@@ -70,7 +70,7 @@ const Hero = () => {
         </section>
         <section
           id="home"
-          className=" h-[250px] sm:h-[300px] md:h-[400px] lg:h-[500px] absolute">
+          className=" h-[250px] sm:h-[300px] md:h-[400px] lg:h-[500px] absolute sm:top-[115%]">
           <div className="relative w-full sm:w-3/4 md:w-[450px] lg:w-[450px] xl:w-[70%] xl:top-[-40em] xl:left-[55em] mx-auto md:top-[-22em] md:left-[9em] lg:top-[-39em] lg:left-[39em] z-[10] top-[-9em] left-[-2em] sm:top-[-16em]">
             <div
               data-aos="flip-in-right"
