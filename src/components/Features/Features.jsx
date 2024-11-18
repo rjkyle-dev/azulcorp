@@ -46,7 +46,7 @@ const Feature = () => {
               <h3 className="text-black text-lg sm:text-xl md:text-2xl font-bold tracking-[0.12em]">
                 Eco-Friendly Travel Tips
               </h3>
-              <p className="bg-sky-200 text-black text-sm sm:text-base md:text-lg p-4 mt-3 rounded-lg leading-relaxed text-justify">
+              <p className="bg-sky-200 text-black text-sm sm:text-base md:text-lg p-4 mt-3 rounded-lg leading-relaxed text-justify hover:bg-sky-300 hover:shadow-lg hover:scale-[1.01]">
                 Discover practical tips for eco-conscious travel along coastal
                 regions. Our advice helps you minimize your environmental
                 impact, protect delicate marine ecosystems, and ensure future
@@ -58,7 +58,7 @@ const Feature = () => {
               <h3 className="text-black text-lg sm:text-xl md:text-2xl font-bold tracking-[0.12em]">
                 Weather Forecast
               </h3>
-              <p className="bg-sky-200 text-black text-sm sm:text-base md:text-lg p-4 mt-3 rounded-lg leading-relaxed text-justify">
+              <p className="bg-sky-200 text-black text-sm sm:text-base md:text-lg p-4 mt-3 rounded-lg leading-relaxed text-justify hover:bg-sky-300 hover:shadow-lg hover:scale-[1.01]">
                 Stay prepared with up-to-date weather forecasts tailored for
                 coastal and marine regions. This feature provides critical
                 information on conditions like tides, wind, and sea states to
@@ -70,7 +70,7 @@ const Feature = () => {
               <h3 className="text-black text-lg sm:text-xl md:text-2xl font-bold tracking-[0.12em]">
                 Marine Species Gallery
               </h3>
-              <p className="bg-sky-200 text-black text-sm sm:text-base md:text-lg p-4 mt-3 rounded-lg leading-relaxed text-justify">
+              <p className="bg-sky-200 text-black text-sm sm:text-base md:text-lg p-4 mt-3 rounded-lg leading-relaxed text-justify hover:bg-sky-300 hover:shadow-lg hover:scale-[1.01]">
                 Explore our interactive gallery featuring a diverse array of
                 marine species found in coastal areas. Learn about their unique
                 characteristics, habitats, and roles within the ecosystem. Each
@@ -83,7 +83,7 @@ const Feature = () => {
               <h3 className="text-black text-lg sm:text-xl md:text-2xl font-bold tracking-[0.12em]">
                 Marine Conservation Program
               </h3>
-              <p className="bg-sky-200 text-black text-sm sm:text-base md:text-lg p-4 mt-3 rounded-lg leading-relaxed text-justify">
+              <p className="bg-sky-200 text-black text-sm sm:text-base md:text-lg p-4 mt-3 rounded-lg leading-relaxed text-justify hover:bg-sky-300 hover:shadow-lg hover:scale-[1.01]">
                 Engage with our Marine Conservation Program, designed to educate
                 and certify individuals passionate about marine protection. This
                 program offers valuable resources and hands-on opportunities to
@@ -95,7 +95,7 @@ const Feature = () => {
               <h3 className="text-black text-lg sm:text-xl md:text-2xl font-bold tracking-[0.12em]">
                 Merchandise Store
               </h3>
-              <p className="bg-sky-200 text-black text-sm sm:text-base md:text-lg p-4 mt-3 rounded-lg leading-relaxed text-justify">
+              <p className="bg-sky-200 text-black text-sm sm:text-base md:text-lg p-4 mt-3 rounded-lg leading-relaxed text-justify hover:bg-sky-300 hover:shadow-lg hover:scale-[1.01]">
                 Support our conservation efforts and show your commitment to
                 marine preservation by purchasing from our Merchandise Store.
                 Each item in our store is designed to promote and help fund our

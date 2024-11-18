@@ -25,11 +25,11 @@ const Navbar = () => {
         <div className="container mx-auto px-4 sm:px-8 py-3">
           <div className="flex justify-between items-center">
             {/* Logo */}
-            <div className="flex items-center gap-4 font-bold text-2xl">
+            <div className="flex items-center gap-4 font-bold text-[1.50rem] text-blue-800">
               <Link to={"/"} onClick={() => window.scrollTo(0, 0)}>
                 <img src={Logo} alt="Logo" className="h-12" />
               </Link>
-              <span>Azul Corp</span>
+              <span className="main">Azul Corp</span>
             </div>
             {/* Navbar Links (Desktop View) */}
             <div className="hidden md:flex">
