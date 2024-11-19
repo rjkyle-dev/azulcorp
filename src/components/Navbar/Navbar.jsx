@@ -27,11 +27,11 @@ const Navbar = () => {
             {/* Logo */}
             <div className="flex items-center gap-4 font-bold text-[1.50rem] text-blue-800">
               <Link to={"/"} onClick={() => window.scrollTo(0, 0)}>
-                <img src={Logo} alt="Logo" className="h-12" />
+                <img src={Logo} alt="Logo" className="h-20 w-20" />
               </Link>
               <span className="main">Azul Corp</span>
             </div>
-            {/* Navbar Links (Desktop View) */}
+         
             <div className="hidden md:flex">
               <ul className="flex items-center gap-16 font-bold text-lg">
                 {NavbarLinks.map((data) => (

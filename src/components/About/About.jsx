@@ -46,7 +46,7 @@ const About = () => {
                   CEO
                 </h1>
                 <h3 className="text-lg font-semibold text-black mt-8">
-                  Philip P. Concha
+                  Philip Roy C. Concha
                 </h3>
                 <h3 className="text-lg font-semibold text-gray-600 mt-8">
                   Bachelor of Science Information Systems
@@ -88,7 +88,7 @@ const About = () => {
                   CMO
                 </h1>
                 <h3 className="text-lg font-semibold text-black mt-8">
-                  Jhe-anne Selle
+                  Jhe-anne Y. Selle
                 </h3>
                 <h3 className="text-lg font-semibold text-gray-600 mt-8">
                   Bachelor of Science Information Systems
