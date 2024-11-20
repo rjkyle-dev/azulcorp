@@ -29,7 +29,7 @@ export function ThreeDCardDemo() {
             alt="thumbnail"
           />
         </CardItem>
-        <div className="flex flex-col sm:flex-row justify-between items-center mt-10 sm:mt-20 gap-4">
+        {/* <div className="flex flex-col sm:flex-row justify-between items-center mt-10 sm:mt-20 gap-4">
           <a href="https://www.figma.com/design/lW68BqGDfaTSLfEJMtCQV6/Entrep-Prototype?node-id=0-1&t=6dcdfDWAzp58Nhjc-1">
             <CardItem
               translateZ={20}
@@ -41,7 +41,7 @@ export function ThreeDCardDemo() {
             </CardItem>
           </a>
           
-        </div>
+        </div> */}
       </CardBody>
     </CardContainer>
   );
