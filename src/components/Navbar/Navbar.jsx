@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useState } from "react";
 import Logo from "../../assets/logo.png";
 import { NavLink, Link } from "react-router-dom";
@@ -25,7 +26,7 @@ const Navbar = () => {
         <div className="container mx-auto px-4 sm:px-8 py-3">
           <div className="flex justify-between items-center">
             {/* Logo */}
-            <div className="flex items-center gap-4 font-bold text-[1.10rem] sm:text-[1.50rem] md:text-[1.50rem] lg:text-[1.50rem] xl:text-[1.50rem] text-blue-800 -ml-5">
+            <div className="flex items-center gap-4 font-bold text-[1.30rem] sm:text-[1.50rem] md:text-[1.50rem] lg:text-[1.50rem] xl:text-[1.50rem] text-blue-800 -ml-5">
               <Link to={"/"} onClick={() => window.scrollTo(0, 0)}>
                 <img src={Logo} alt="Logo" className="h-20 w-20 ml-3"/>
               </Link>
