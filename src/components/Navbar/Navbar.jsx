@@ -27,7 +27,7 @@ const Navbar = () => {
             {/* Logo */}
             <div className="flex items-center gap-4 font-bold text-[1.10rem] sm:text-[1.50rem] md:text-[1.50rem] lg:text-[1.50rem] xl:text-[1.50rem] text-blue-800 -ml-5">
               <Link to={"/"} onClick={() => window.scrollTo(0, 0)}>
-                <img src={Logo} alt="Logo" className="h-20 w-20"/>
+                <img src={Logo} alt="Logo" className="h-20 w-20 ml-3"/>
               </Link>
               <span className="main">Azul Corp</span>
             </div>
