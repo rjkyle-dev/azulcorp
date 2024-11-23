@@ -12,6 +12,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import "animate.css/animate.compat.css";
 import { motion } from "motion/react";
+// import { motions } from "framer-motion";
 const App = () => {
   React.useEffect(() => {
     AOS.init({

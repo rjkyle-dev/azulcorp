@@ -10,6 +10,7 @@ const Home = () => {
         <div className="h-[700px] relative overflow-visible">
           <video
             data-aos="fade"
+            data-aos-duration="1000"
             autoPlay
             loop
             muted

@@ -89,6 +89,8 @@ const Hero = () => {
       </div>
       <div
         data-aos="fade-up"
+        data-aos-delay="200"
+        data-aos-duration="1000"
         className="w-full relative top-[5em] xl:top-[15em]">
         <BentoGridDemo />
         <Footer />

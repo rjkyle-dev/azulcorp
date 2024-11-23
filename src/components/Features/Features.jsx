@@ -21,8 +21,8 @@ const Feature = () => {
             <div
               data-aos="fade"
               data-aos-delay="200"
-              data-aos-duration="2000"
-              data-aos-once="true"
+              data-aos-duration="1000"
+              // data-aos-once="true"
               data-aos-easing="linear"
               className="w-full md:w-3/4 lg:w-2/3 mx-auto mt-4">
               <p className="text-black text-base sm:text-lg md:text-xl lg:text-2xl font-normal tracking-[0.08em] text-justify">
@@ -42,8 +42,8 @@ const Feature = () => {
           <div
             data-aos="fade"
             data-aos-delay="200"
-            data-aos-duration="2000"
-            data-aos-once="true"
+            data-aos-duration="1000"
+            // data-aos-once="true"
             data-aos-easing="linear">
             <ThreeDCardDemo />
           </div>
@@ -57,15 +57,15 @@ const Feature = () => {
             <div className="mb-8">
               <h3
                 data-aos="fade"
-                data-aos-duration="2000"
+                data-aos-duration="1000"
                 className="text-black text-lg sm:text-xl md:text-2xl font-bold tracking-[0.12em]">
                 Eco-Friendly Travel Tips
               </h3>
               <p
-                data-aos="slide-right"
+                data-aos="fade-in"
                 data-aos-delay="200"
-                data-aos-duration="2000"
-                data-aos-once="true"
+                data-aos-duration="1000"
+                // data-aos-once="true"
                 data-aos-easing="linear"
                 className="bg-sky-200 text-black text-sm sm:text-base md:text-lg p-4 mt-3 rounded-lg leading-relaxed text-justify hover:bg-sky-300 hover:shadow-lg hover:scale-[1.01]">
                 Discover practical tips for eco-conscious travel along coastal
@@ -77,14 +77,14 @@ const Feature = () => {
 
             <div className="mb-8">
               <h3 data-aos="fade"
-                data-aos-duration="2000" className="text-black text-lg sm:text-xl md:text-2xl font-bold tracking-[0.12em]">
+                data-aos-duration="1000" className="text-black text-lg sm:text-xl md:text-2xl font-bold tracking-[0.12em]">
                 Weather Forecast
               </h3>
               <p
-                data-aos="slide-left"
+                data-aos="fade-in"
                 data-aos-delay="200"
-                data-aos-duration="2000"
-                data-aos-once="true"
+                data-aos-duration="1000"
+                // data-aos-once="true"
                 data-aos-easing="linear"
                 className="bg-sky-200 text-black text-sm sm:text-base md:text-lg p-4 mt-3 rounded-lg leading-relaxed text-justify hover:bg-sky-300 hover:shadow-lg hover:scale-[1.01]">
                 Stay prepared with up-to-date weather forecasts tailored for
@@ -100,10 +100,10 @@ const Feature = () => {
                 Marine Species Gallery
               </h3>
               <p
-                data-aos="slide-right"
+                data-aos="fade-in"
                 data-aos-delay="200"
-                data-aos-duration="2000"
-                data-aos-once="true"
+                data-aos-duration="1000"
+                // data-aos-once="true"
                 data-aos-easing="linear"
                 className="bg-sky-200 text-black text-sm sm:text-base md:text-lg p-4 mt-3 rounded-lg leading-relaxed text-justify hover:bg-sky-300 hover:shadow-lg hover:scale-[1.01]">
                 Explore our interactive gallery featuring a diverse array of
@@ -120,10 +120,10 @@ const Feature = () => {
                 Marine Conservation Program
               </h3>
               <p
-                data-aos="slide-left"
+                data-aos="fade-in"
                 data-aos-delay="200"
                 data-aos-duration="2000"
-                data-aos-once="true"
+                // data-aos-once="true"
                 data-aos-easing="linear"
                 className="bg-sky-200 text-black text-sm sm:text-base md:text-lg p-4 mt-3 rounded-lg leading-relaxed text-justify hover:bg-sky-300 hover:shadow-lg hover:scale-[1.01]">
                 Engage with our Marine Conservation Program, designed to educate
@@ -138,10 +138,10 @@ const Feature = () => {
                 Merchandise Store
               </h3>
               <p
-                data-aos="slide-right"
+                data-aos="fade-in"
                 data-aos-delay="200"
-                data-aos-duration="2000"
-                data-aos-once="true"
+                data-aos-duration="1000"
+                // data-aos-once="true"
                 data-aos-easing="linear"
                 className="bg-sky-200 text-black text-sm sm:text-base md:text-lg p-4 mt-3 rounded-lg leading-relaxed text-justify hover:bg-sky-300 hover:shadow-lg hover:scale-[1.01]">
                 Support our conservation efforts and show your commitment to
@@ -153,7 +153,7 @@ const Feature = () => {
           </div>
 
           <div data-aos="fade"
-          data-aos-duration="2000"
+          data-aos-duration="1000"
           data-aos-ease="linear" className="pt-12 sm:pt-16 md:pt-20 lg:pt-24 mb-20">
             <button
               type="button"

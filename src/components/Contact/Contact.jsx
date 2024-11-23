@@ -10,12 +10,16 @@ const Contact = () => {
         {/* Header Section */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           <div className="flex flex-col gap-4 mt-8 lg:mt-24">
-            <div className="font-bold">
+            <div
+              data-aos="slide-right"
+              data-aos-ease="ease-in-out"
+              data-aos-duration="1000"
+              className="font-bold">
               <h1 className="text-4xl sm:text-6xl lg:text-8xl font-serif text-blue-500">
                 Let's Talk
               </h1>
             </div>
-            <div>
+            <div data-aos="fade" data-aos-ease="ease-in-out" data-aos-duration="1000">
               <p className="text-sm sm:text-base lg:text-lg font-sans font-normal mt-4 text-justify">
                 For any inquiries or collaboration opportunities, feel free to
                 reach out to Azul Corporation. We're here to discuss how we can
@@ -26,7 +30,13 @@ const Contact = () => {
             </div>
           </div>
 
-          <div className="flex justify-center lg:justify-end">
+          <div
+            data-aos="fade-in"
+            data-aos-delay="200"
+            data-aos-duration="1000"
+            // data-aos-once="true"
+            data-aos-easing="ease-out-in"
+            className="flex justify-center lg:justify-end">
             <div className="flex flex-col justify-center items-center gap-5 mt-10 lg:mt-10 bg-indigo-300 py-10 w-full sm:w-[400px] rounded-2xl">
               <div className="w-[90%]">
                 <input
