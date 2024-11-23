@@ -42,7 +42,7 @@ const About = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
 
             <div data-aos="fade-right" className="relative w-full h-96 flex flex-col items-center">
-              <div className="absolute top-32 inset-8 bg-indigo-300 h-[260px] lg:h-[270px] rounded-lg z-0 text-center hover:shadow-2xl hover:scale-[1.01] shadow-lg">
+              <div className="absolute top-32 inset-8 bg-indigo-300 h-[270px] lg:h-[270px] rounded-lg z-0 text-center hover:shadow-2xl hover:scale-[1.01] shadow-lg">
                 <h1 className="text-2xl font-bold text-white mt-20 tracking-widest bg-sky-700 py-2 ml-14 w-[120px] rounded-lg">
                   CEO
                 </h1>
@@ -66,7 +66,7 @@ const About = () => {
             </div>
 
             <div data-aos="fade-up" className="relative w-full h-96 flex flex-col items-center">
-              <div className="absolute top-32 inset-8 bg-indigo-300 h-[260px] lg:h-[270px] rounded-lg z-0 text-center hover:shadow-2xl hover:scale-[1.01] shadow-lg">
+              <div className="absolute top-32 inset-8 bg-indigo-300 h-[270px] lg:h-[270px] rounded-lg z-0 text-center hover:shadow-2xl hover:scale-[1.01] shadow-lg">
                 <h1 className="text-2xl font-bold text-white mt-16 tracking-widest bg-sky-700 py-2 ml-14 w-[120px] rounded-lg">
                   COO
                 </h1>
@@ -92,7 +92,7 @@ const About = () => {
             </div>
 
             <div data-aos="fade-up" className="relative w-full h-96 flex flex-col items-center">
-              <div className="absolute top-32 inset-8 bg-indigo-300 h-[250px] lg:h-[270px]  rounded-lg z-0 text-center hover:shadow-2xl hover:scale-[1.01] shadow-lg">
+              <div className="absolute top-32 inset-8 bg-indigo-300 h-[270px] lg:h-[270px]  rounded-lg z-0 text-center hover:shadow-2xl hover:scale-[1.01] shadow-lg">
                 <h1 className="text-2xl font-bold text-white mt-16 tracking-widest bg-sky-700 py-2 ml-14 w-[120px] rounded-lg">
                   CMO
                 </h1>
@@ -116,7 +116,7 @@ const About = () => {
             </div>
 
             <div data-aos="fade-left" className="relative w-full h-96 flex flex-col items-center">
-              <div className="absolute top-32 inset-8 bg-indigo-300 h-[260px] lg:h-[270px] rounded-lg z-0 text-center hover:shadow-2xl hover:scale-[1.01] shadow-lg px-5">
+              <div className="absolute top-32 inset-8 bg-indigo-300 h-[270px] lg:h-[270px] rounded-lg z-0 text-center hover:shadow-2xl hover:scale-[1.01] shadow-lg px-5">
                 <h1 className="text-2xl font-bold text-white mt-16 tracking-widest bg-sky-700 py-2 ml-10 w-[120px] rounded-lg">
                   CTO
                 </h1>
