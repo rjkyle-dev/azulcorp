@@ -6,6 +6,7 @@ import Kyle from "../../assets/team-profile/kyle.jpg";
 import Concha from "../../assets/team-profile/Philip.jpeg";
 import Nigas from "../../assets/team-profile/ÑIGAS,ENJE A ..jpg";
 import Footer from "../../components/Footer/Footer";
+import crab from "../../assets/image/crab.png";
 
 const About = () => {
   return (
@@ -37,6 +38,12 @@ const About = () => {
               </p>
             </div>
           </div>
+        </div>
+        <div className="w-full flex justify-center absolute top-[200px]">
+          <img src={crab} className="w-[30em] object-cover " alt="" />
+        </div>
+        <div className="w-full flex justify-center absolute top-[200px]">
+          <img src={crab} className="w-[30em] object-cover " alt="" />
         </div>
 
         {/* Team Section */}
