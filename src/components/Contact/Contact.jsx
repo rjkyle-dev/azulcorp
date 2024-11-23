@@ -2,11 +2,18 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import Footer from "../../components/Footer/Footer";
+import fish from "../../assets/image/fish.png";
 
 const Contact = () => {
   return (
     <>
-      <section className="container mx-auto h-auto mt-20 px-4">
+      <section className="container mx-auto h-auto mt-20 px-4 relative">
+        <div className="w-full flex justify-center absolute lg:top-[30px] top-[90px]">
+          <img src={fish} className="w-[30em] object-cover " alt="" />
+        </div>
+
+        <div className="w-[25em] h-[25em] absolute top-[250px] right-[80em] bg-blue-500 rounded-full opacity-50"></div>
+        
         {/* Header Section */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           <div className="flex flex-col gap-4 mt-8 lg:mt-24">
@@ -19,7 +26,10 @@ const Contact = () => {
                 Let's Talk
               </h1>
             </div>
-            <div data-aos="fade" data-aos-ease="ease-in-out" data-aos-duration="1000">
+            <div
+              data-aos="fade"
+              data-aos-ease="ease-in-out"
+              data-aos-duration="1000">
               <p className="text-sm sm:text-base lg:text-lg font-sans font-normal mt-4 text-justify">
                 For any inquiries or collaboration opportunities, feel free to
                 reach out to Azul Corporation. We're here to discuss how we can
