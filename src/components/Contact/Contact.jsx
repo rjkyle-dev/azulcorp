@@ -8,9 +8,9 @@ const Contact = () => {
   return (
     <>
       <section className="container mx-auto h-auto mt-20 px-4 relative">
-        <div className="w-full flex justify-center absolute lg:top-[30px] top-[90px]">
+        {/* <div className="w-full flex justify-center absolute lg:top-[30px] top-[90px]">
           <img src={fish} className="w-[30em] object-cover " alt="" />
-        </div>
+        </div> */}
 
      
         

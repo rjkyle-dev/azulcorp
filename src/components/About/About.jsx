@@ -15,9 +15,9 @@ const About = () => {
       <section
         id="features"
         className="px-4 sm:px-8 md:px-12 lg:px-16 xl:px-20 h-auto relative mb-56">
-        <div className="w-full flex justify-center absolute lg:top-[200px] top-36">
+        {/* <div className="w-full flex justify-center absolute lg:top-[200px] top-36">
           <img src={crab} className="w-[30em] object-cover " alt="" />
-        </div>
+        </div> */}
 
         {/* Intro Section */}
         <div className="flex mt-28">
