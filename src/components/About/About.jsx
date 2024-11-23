@@ -79,7 +79,7 @@ const About = () => {
                   Enje A. Ñigas
                 </h3>
                 <h3 className="text-lg font-semibold text-gray-600 mt-8">
-                  <ul className="w-[200px] ml-3">
+                  <ul className="w-[200px] ml-3 -mt-2">
                     <li className="text-wrap">
                       Business and Management Skills
                     </li>
