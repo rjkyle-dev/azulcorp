@@ -125,7 +125,7 @@ const About = () => {
             <div
               data-aos="fade-left"
               className="relative w-full h-96 flex flex-col items-center">
-              <div className="absolute top-32 inset-8 bg-indigo-300 h-[310px] lg:h-[270px] rounded-lg z-0 text-center hover:shadow-2xl hover:scale-[1.01] shadow-lg px-5">
+              <div className="absolute top-32 inset-8 bg-indigo-300 h-[330px] lg:h-[270px] rounded-lg z-0 text-center hover:shadow-2xl hover:scale-[1.01] shadow-lg px-5">
                 <h1 className="text-2xl font-bold text-white mt-16 tracking-widest bg-sky-700 py-2 ml-10 w-[120px] rounded-lg">
                   CTO
                 </h1>
