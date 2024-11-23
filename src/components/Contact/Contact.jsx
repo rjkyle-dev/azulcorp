@@ -12,7 +12,7 @@ const Contact = () => {
           <img src={fish} className="w-[30em] object-cover " alt="" />
         </div>
 
-        <div className="w-[25em] h-[25em] absolute top-[250px] right-[80em] bg-blue-500 rounded-full opacity-50"></div>
+     
         
         {/* Header Section */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">

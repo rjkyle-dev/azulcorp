@@ -19,8 +19,6 @@ const About = () => {
           <img src={crab} className="w-[30em] object-cover " alt="" />
         </div>
 
-        <div className="w-[25em] h-[25em] absolute top-[200px] right-[-170px] bg-blue-500 rounded-full opacity-0 lg:opacity-50 sm:opacity-50 md:opacity-50"></div>
-        <div className="w-[20em] h-[20em] absolute top-[65em] left-[170px] bg-blue-500 rounded-full opacity-50"></div>
         {/* Intro Section */}
         <div className="flex mt-28">
           <div className="container pt-12 sm:pt-16 md:pt-20 lg:pt-24">
