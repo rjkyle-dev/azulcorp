@@ -41,18 +41,21 @@ const About = () => {
         <div className="w-full mt-24 px-4">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="relative w-full h-96 flex flex-col items-center">
-              <div className="absolute top-32 inset-8 bg-indigo-300 h-[260px] lg:h-[250px] rounded-lg z-0 text-center hover:shadow-2xl hover:scale-[1.01] shadow-lg">
-                <h1 className="text-2xl font-bold text-white mt-16 tracking-widest bg-sky-700 py-2 ml-14 w-[120px] rounded-lg">
+              <div className="absolute top-32 inset-8 bg-indigo-300 h-[260px] lg:h-[270px] rounded-lg z-0 text-center hover:shadow-2xl hover:scale-[1.01] shadow-lg">
+                <h1 className="text-2xl font-bold text-white mt-20 tracking-widest bg-sky-700 py-2 ml-14 w-[120px] rounded-lg">
                   CEO
                 </h1>
                 <h3 className="text-lg font-semibold text-black mt-8">
                   Philip Roy C. Concha
                 </h3>
-                <h3 className="text-lg font-semibold text-gray-600 mt-8">
-                  Bachelor of Science Information Systems
+                <h3 className="text-lg font-semibold text-gray-600 mt-5">
+                  <ul className="w-[200px] ml-3">
+                    <li className="text-wrap">Computer Literate-Leadership</li>
+                    <li>Communications Skills</li>
+                  </ul>
                 </h3>
               </div>
-              <div className="relative z-10 flex justify-center items-center mt-8">
+              <div className="relative z-10 flex justify-center items-center mt-8 border-white w-39 h-39 object-cover rounded-full border-[5px]">
                 <img
                   src={Concha}
                   alt="Concha"
@@ -62,7 +65,7 @@ const About = () => {
             </div>
 
             <div className="relative w-full h-96 flex flex-col items-center">
-              <div className="absolute top-32 inset-8 bg-indigo-300 h-[260px] lg:h-[250px] rounded-lg z-0 text-center hover:shadow-2xl hover:scale-[1.01] shadow-lg">
+              <div className="absolute top-32 inset-8 bg-indigo-300 h-[260px] lg:h-[270px] rounded-lg z-0 text-center hover:shadow-2xl hover:scale-[1.01] shadow-lg">
                 <h1 className="text-2xl font-bold text-white mt-16 tracking-widest bg-sky-700 py-2 ml-14 w-[120px] rounded-lg">
                   COO
                 </h1>
@@ -70,10 +73,15 @@ const About = () => {
                   Enje A. Ñigas
                 </h3>
                 <h3 className="text-lg font-semibold text-gray-600 mt-8">
-                  Bachelor of Science Information Systems
+                  <ul className="w-[200px] ml-3">
+                    <li className="text-wrap">
+                      Business and Management Skills
+                    </li>
+                    <li>System Analyst Accounting</li>
+                  </ul>
                 </h3>
               </div>
-              <div className="relative z-10 flex justify-center items-center mt-8">
+              <div className="relative z-10 flex justify-center items-center mt-8  border-white w-39 h-39 object-cover rounded-full border-[5px]">
                 <img
                   src={Nigas}
                   alt="Nigas"
@@ -83,7 +91,7 @@ const About = () => {
             </div>
 
             <div className="relative w-full h-96 flex flex-col items-center">
-              <div className="absolute top-32 inset-8 bg-indigo-300 h-[250px] lg:h-[250px]  rounded-lg z-0 text-center hover:shadow-2xl hover:scale-[1.01] shadow-lg">
+              <div className="absolute top-32 inset-8 bg-indigo-300 h-[250px] lg:h-[270px]  rounded-lg z-0 text-center hover:shadow-2xl hover:scale-[1.01] shadow-lg">
                 <h1 className="text-2xl font-bold text-white mt-16 tracking-widest bg-sky-700 py-2 ml-14 w-[120px] rounded-lg">
                   CMO
                 </h1>
@@ -91,10 +99,13 @@ const About = () => {
                   Jhe-anne Y. Selle
                 </h3>
                 <h3 className="text-lg font-semibold text-gray-600 mt-8">
-                  Bachelor of Science Information Systems
+                  <ul className="w-[200px] ml-3">
+                    <li className="text-wrap">Communication Skills</li>
+                    <li>Financial and Accounting Skills</li>
+                  </ul>
                 </h3>
               </div>
-              <div className="relative z-10 flex justify-center items-center mt-8">
+              <div className="relative z-10 flex justify-center items-center mt-8 border-white w-39 h-39 object-cover rounded-full border-[5px]">
                 <img
                   src={Selle}
                   alt="Selle"
@@ -104,7 +115,7 @@ const About = () => {
             </div>
 
             <div className="relative w-full h-96 flex flex-col items-center">
-              <div className="absolute top-32 inset-8 bg-indigo-300 h-[260px] lg:h-[250px] lg:h-[250px] rounded-lg z-0 text-center hover:shadow-2xl hover:scale-[1.01] shadow-lg px-5">
+              <div className="absolute top-32 inset-8 bg-indigo-300 h-[260px] lg:h-[270px] rounded-lg z-0 text-center hover:shadow-2xl hover:scale-[1.01] shadow-lg px-5">
                 <h1 className="text-2xl font-bold text-white mt-16 tracking-widest bg-sky-700 py-2 ml-10 w-[120px] rounded-lg">
                   CTO
                 </h1>
@@ -112,10 +123,13 @@ const About = () => {
                   RJ Kyle G. Labrador
                 </h3>
                 <h3 className="text-lg font-semibold text-gray-600 mt-8">
-                  Bachelor of Science Information Systems
+                  <ul className="w-[200px] ml-0">
+                    <li className="text-wrap">Design and Creative Skills</li>
+                    <li>Technical/Programming Skills</li>
+                  </ul>
                 </h3>
               </div>
-              <div className="relative z-10 flex justify-center items-center mt-8">
+              <div className="relative z-10 flex justify-center items-center mt-8 border-white w-39 h-39 object-cover rounded-full border-[5px]">
                 <img
                   src={Kyle}
                   alt="Kyle"
