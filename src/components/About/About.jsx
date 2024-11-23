@@ -7,6 +7,7 @@ import Concha from "../../assets/team-profile/Philip.jpeg";
 import Nigas from "../../assets/team-profile/ÑIGAS,ENJE A ..jpg";
 import Footer from "../../components/Footer/Footer";
 import crab from "../../assets/image/crab.png";
+import bubble from "../../assets/image/bubble.png";
 
 const About = () => {
   return (
@@ -14,6 +15,12 @@ const About = () => {
       <section
         id="features"
         className="px-4 sm:px-8 md:px-12 lg:px-16 xl:px-20 h-auto relative mb-56">
+        <div className="w-full flex justify-center absolute top-[200px]">
+          <img src={crab} className="w-[30em] object-cover " alt="" />
+        </div>
+
+        <div className="w-[25em] h-[25em] absolute top-[200px] right-[-170px] bg-blue-500 rounded-full opacity-50">
+        </div>
         {/* Intro Section */}
         <div className="flex mt-28">
           <div className="container pt-12 sm:pt-16 md:pt-20 lg:pt-24">
@@ -39,12 +46,10 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="w-full flex justify-center absolute top-[200px]">
-          <img src={crab} className="w-[30em] object-cover " alt="" />
-        </div>
-        <div className="w-full flex justify-center absolute top-[200px]">
-          <img src={crab} className="w-[30em] object-cover " alt="" />
-        </div>
+
+        {/* <div className="w-full flex justify-center absolute top-[200px] opacity-55">
+          <img src={bubble} className="w-[30em] object-cover " alt="" />
+        </div> */}
 
         {/* Team Section */}
         <div className="w-full mt-64 px-4">
