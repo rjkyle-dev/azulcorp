@@ -25,7 +25,7 @@ const Navbar = () => {
       <nav className="fixed top-0 left-0 w-screen z-50 bg-white backdrop-blur-sm shadow-md border-b-2 border-gray-200">
         <div className="container mx-auto px-4 sm:px-8 py-3">
           <div className="flex justify-between items-center">
-            {/* Logo */}
+          
             <div className="flex items-center gap-4 font-bold text-[1.30rem] sm:text-[1.50rem] md:text-[1.50rem] lg:text-[1.50rem] xl:text-[1.50rem] text-blue-800 -ml-5 ">
               <Link to={"/"} onClick={() => window.scrollTo(0, 0)}>
                 <img
