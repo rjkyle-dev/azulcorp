@@ -71,7 +71,7 @@ const About = () => {
             <div
               data-aos="fade-up"
               className="relative w-full h-96 flex flex-col items-center">
-              <div className="absolute top-32 inset-8 bg-indigo-300 h-[320px] lg:h-[270px] rounded-lg z-0 text-center hover:shadow-2xl hover:scale-[1.01] shadow-lg">
+              <div className="absolute top-32 inset-8 bg-indigo-300 h-[325px] lg:h-[270px] rounded-lg z-0 text-center hover:shadow-2xl hover:scale-[1.01] shadow-lg">
                 <h1 className="text-2xl font-bold text-white mt-16 tracking-widest bg-sky-700 py-2 ml-14 w-[120px] rounded-lg">
                   COO
                 </h1>
@@ -133,7 +133,7 @@ const About = () => {
                   RJ Kyle G. Labrador
                 </h3>
                 <h3 className="text-lg font-semibold text-gray-600 mt-8">
-                  <ul className="w-[200px] ml-0 bg-red-500">
+                  <ul className="w-[200px] ml-0">
                     <li className="text-wrap">Design and Creative Skills</li>
                     <li>Technical/Programming Skills</li>
                   </ul>
