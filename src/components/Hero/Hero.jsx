@@ -32,15 +32,19 @@ const Hero = () => {
                     <p className="font-bold text-sm sm:text-xl xl:text-2xl text-white font-serif mt-4 sm:mt-6 xl:ml-[-16em] xl:w-[120%] md:w-[600px] md:text-center lg:ml-[-40px] w-[400px] ml-[5em] sm:ml-[8.3em] md:ml-[4em]">
                       <q
                         className="tracking-widest ml-[-5px]"
-                        data-aos="fade-up"
-                        data-aos-delay="200"
-                        data-aos-once="true"
+                        data-aos="fade"
+                        // data-aos-delay="200"
                         data-aos-easing="linear">
                         Explore Discover Conserve
                       </q>
                     </p>
 
-                    <p className="w-[230px] ml-[5em] leading-relaxed mt-4 sm:mt-6 xl:w-[500px] tracking-wide font-sans text-sm sm:text-lg xl:text-xl xl:ml-[60px] md:w-[550px] text-justify lg:w-[360px] xl:mt-[1em] sm:w-[400px] sm:ml-28">
+                    <p
+                      data-aos="zoom-in"
+                      data-aos-delay="200"
+                      data-aos-once="true"
+                      data-aos-easing="linear"
+                      className="w-[230px] ml-[5em] leading-relaxed mt-4 sm:mt-6 xl:w-[500px] tracking-wide font-sans text-sm sm:text-lg xl:text-xl xl:ml-[60px] md:w-[550px] text-justify lg:w-[360px] xl:mt-[1em] sm:w-[400px] sm:ml-28">
                       Technology for Intelligent Detection of Ecosystem Species
                       is a cutting-edge system that uses advanced technology to
                       track and identify marine species in their natural
@@ -73,7 +77,10 @@ const Hero = () => {
           className=" h-[250px] sm:h-[300px] md:h-[400px] lg:h-[500px] absolute sm:top-[120%]">
           <div className="relative w-full sm:w-3/4 md:w-[450px] lg:w-[450px] xl:w-[70%] xl:top-[-45em] xl:left-[55em] mx-auto md:top-[-22em] md:left-[9em] lg:top-[-39em] lg:left-[39em] z-[10] top-[-9em] left-[-2em] sm:top-[-16em]">
             <div
-              data-aos="flip-in-right"
+              data-aos="fade-left"
+              data-aos-delay="200"
+              data-aos-once="true"
+              data-aos-easing="linear"
               className="flex justify-center items-center sm:mt-[-30px] md:mt-[-20px]">
               <Carousel className="h-[200px] sm:h-[250px]  lg:h-[400px] md:w-[400px] xl:w-[620px] w-[200px] ml-16 xl:ml-2 rounded-[10px] xl:h-[550px]" />
             </div>

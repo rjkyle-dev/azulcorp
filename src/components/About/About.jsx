@@ -16,13 +16,13 @@ const About = () => {
         {/* Intro Section */}
         <div className="flex mt-28">
           <div className="container pt-12 sm:pt-16 md:pt-20 lg:pt-24">
-            <div className="text-center">
-              <h1 className="text-blue-600 font-bold tracking-[0.12em] leading-tight text-3xl sm:text-6xl md:text-7xl lg:text-9xl lg:absolute lg:top-[-30px]">
+            <div data-aos="fade" className="text-center">
+              <h1 className="text-blue-600 font-bold tracking-[0.12em] leading-tight text-3xl sm:text-6xl md:text-7xl lg:text-9xl lg:absolute lg:top-[-80px]">
                 Who We Are
               </h1>
             </div>
             <div className="md:w-3/4 lg:w-[70%] mx-auto mt-4 lg:mt-12 lg:ml-[10px]">
-              <p className="text-black text-sm sm:text-base md:text-lg lg:text-xl font-normal tracking-[0.02em] text-justify">
+              <p data-aos="zoom-in" className="text-black text-sm sm:text-base md:text-lg lg:text-xl font-normal tracking-[0.02em] text-justify">
                 At T.I.D.E.S, we are dedicated to making a positive impact on
                 marine ecosystems through technology-driven insights and
                 resources. Our platform combines innovation with a deep
@@ -40,7 +40,8 @@ const About = () => {
         {/* Team Section */}
         <div className="w-full mt-24 px-4">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="relative w-full h-96 flex flex-col items-center">
+
+            <div data-aos="fade-right" className="relative w-full h-96 flex flex-col items-center">
               <div className="absolute top-32 inset-8 bg-indigo-300 h-[260px] lg:h-[270px] rounded-lg z-0 text-center hover:shadow-2xl hover:scale-[1.01] shadow-lg">
                 <h1 className="text-2xl font-bold text-white mt-20 tracking-widest bg-sky-700 py-2 ml-14 w-[120px] rounded-lg">
                   CEO
@@ -64,7 +65,7 @@ const About = () => {
               </div>
             </div>
 
-            <div className="relative w-full h-96 flex flex-col items-center">
+            <div data-aos="fade-up" className="relative w-full h-96 flex flex-col items-center">
               <div className="absolute top-32 inset-8 bg-indigo-300 h-[260px] lg:h-[270px] rounded-lg z-0 text-center hover:shadow-2xl hover:scale-[1.01] shadow-lg">
                 <h1 className="text-2xl font-bold text-white mt-16 tracking-widest bg-sky-700 py-2 ml-14 w-[120px] rounded-lg">
                   COO
@@ -90,7 +91,7 @@ const About = () => {
               </div>
             </div>
 
-            <div className="relative w-full h-96 flex flex-col items-center">
+            <div data-aos="fade-up" className="relative w-full h-96 flex flex-col items-center">
               <div className="absolute top-32 inset-8 bg-indigo-300 h-[250px] lg:h-[270px]  rounded-lg z-0 text-center hover:shadow-2xl hover:scale-[1.01] shadow-lg">
                 <h1 className="text-2xl font-bold text-white mt-16 tracking-widest bg-sky-700 py-2 ml-14 w-[120px] rounded-lg">
                   CMO
@@ -114,7 +115,7 @@ const About = () => {
               </div>
             </div>
 
-            <div className="relative w-full h-96 flex flex-col items-center">
+            <div data-aos="fade-left" className="relative w-full h-96 flex flex-col items-center">
               <div className="absolute top-32 inset-8 bg-indigo-300 h-[260px] lg:h-[270px] rounded-lg z-0 text-center hover:shadow-2xl hover:scale-[1.01] shadow-lg px-5">
                 <h1 className="text-2xl font-bold text-white mt-16 tracking-widest bg-sky-700 py-2 ml-10 w-[120px] rounded-lg">
                   CTO
