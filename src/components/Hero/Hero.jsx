@@ -67,22 +67,20 @@ const Hero = () => {
                       </button>
                     </div>
                   </div>
+                  <div className=" h-[250px] sm:h-[300px] md:h-[400px] lg:h-[500px] absolute sm:top-[120%]">
+                    <div className="relative w-full sm:w-3/4 md:w-[450px] lg:w-[450px] xl:w-[70%] xl:top-[-18em] xl:left-[40em] mx-auto md:top-[-22em] md:left-[9em] lg:top-[-39em] lg:left-0 z-[10] top-[-9em] left-[-2em] sm:top-[-16em] xl:mt-[3em] lg:mt-0 md:mt-0 sm:mt-0">
+                      <div
+                        data-aos="fade-left"
+                        data-aos-delay="200"
+                        data-aos-once="true"
+                        data-aos-easing="linear"
+                        className="flex justify-center items-center sm:mt-[-30px] md:mt-[-20px] xl:mt-8">
+                        <Carousel className="h-[200px] sm:h-[250px]  lg:h-[400px] md:w-[400px] xl:w-[620px] w-[200px] ml-16 xl:ml-2 rounded-[10px] xl:h-[550px] xl:mt-7 lg:mt-10" />
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </section>
-        <section
-          id="home"
-          className=" h-[250px] sm:h-[300px] md:h-[400px] lg:h-[500px] absolute sm:top-[120%]">
-          <div className="relative w-full sm:w-3/4 md:w-[450px] lg:w-[450px] xl:w-[70%] xl:top-[-55em] xl:left-[55em] mx-auto md:top-[-22em] md:left-[9em] lg:top-[-39em] lg:left-[39em] z-[10] top-[-9em] left-[-2em] sm:top-[-16em] xl:mt-[3em] lg:mt-0 md:mt-0 sm:mt-0">
-            <div
-              data-aos="fade-left"
-              data-aos-delay="200"
-              data-aos-once="true"
-              data-aos-easing="linear"
-              className="flex justify-center items-center sm:mt-[-30px] md:mt-[-20px] xl:mt-8">
-              <Carousel className="h-[200px] sm:h-[250px]  lg:h-[400px] md:w-[400px] xl:w-[620px] w-[200px] ml-16 xl:ml-2 rounded-[10px] xl:h-[550px] xl:mt-7 lg:mt-10" />
             </div>
           </div>
         </section>
