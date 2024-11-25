@@ -68,7 +68,7 @@ const Hero = () => {
                     </div>
                   </div>
                   <div className=" h-[250px] sm:h-[300px] md:h-[400px] lg:h-[500px] absolute sm:top-[140%] md:top-[130%]">
-                    <div className="relative w-full sm:w-3/4 md:w-[450px] lg:w-[450px] xl:w-[70%] xl:top-[-18em] xl:left-[40em] mx-auto md:top-[-22em] md:left-[9em] lg:top-[-125%] lg:left-[35em] z-[10] top-[2em] left-[-2em] sm:top-[-5em] xl:mt-[3em] lg:mt-0 md:mt-0 sm:mt-0">
+                    <div className="relative w-full sm:w-3/4 md:w-[450px] lg:w-[450px] xl:w-[70%] xl:top-[-18em] xl:left-[40em] mx-auto md:top-[-22em] md:left-[9em] lg:top-[-125%] lg:left-[35em] z-[10] top-[2.5em] left-[-2em] sm:top-[-5em] xl:mt-[3em] lg:mt-0 md:mt-0 sm:mt-0">
                       <div
                         data-aos="fade-left"
                         data-aos-delay="200"
@@ -89,7 +89,7 @@ const Hero = () => {
         data-aos="fade-up"
         data-aos-delay="200"
         data-aos-duration="1000"
-        className="w-full relative top-[6em] xl:top-[15em] sm:top-[20em]">
+        className="w-full relative top-[3em] xl:top-[15em] sm:top-[20em]">
         <BentoGridDemo />
         <Footer />
       </div>
