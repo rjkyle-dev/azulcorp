@@ -22,7 +22,7 @@ const Hero = () => {
             <div className="w-full mt-[-50px] flex flex-col md:flex-row justify-center items-center p-6 gap-36 ">
               <div className="container grid grid-cols-1 gap-4 mb-20 sm:mb-32 sm:top-[-5em] md:mb-44 sm:mt-20 relative">
                 <div className="w-full xl:absolute xl:top-[-50px] xl:left-[8rem] lg:left-5 mt-[90px] ">
-                  <div className="text-white px-4 sm:px-10 md:px-12 lg:px-10 xl:px-24 xl:mt-[-270px] md:top-[-12em] relative xl:left-[-100px] xl:top-[20em] lg:left-[-6em] xl:w-[100%] right-14 top-[-5em] lg:top-[-2em]">
+                  <div className="text-white px-4 sm:px-10 md:px-12 lg:px-10 xl:px-24 xl:mt-[-220px] md:top-[-12em] relative xl:left-[-100px] xl:top-[20em] lg:left-[-6em] xl:w-[100%] right-14 top-[-5em] lg:top-[-2em]">
                     <h1
                       data-aos="fade"
                       className="mainText text-blue-700 text-7xl sm:text-9xl lg:text-9xl xl:text-9xl font-extrabold xl:tracking-[0.40em] tracking-widest sm:text-sky-700 md:text-[10em] md:ml-[145px] xl:ml-20 ml-[1em] lg:ml-[70px]">
@@ -75,14 +75,14 @@ const Hero = () => {
         <section
           id="home"
           className=" h-[250px] sm:h-[300px] md:h-[400px] lg:h-[500px] absolute sm:top-[120%]">
-          <div className="relative w-full sm:w-3/4 md:w-[450px] lg:w-[450px] xl:w-[70%] xl:top-[-45em] xl:left-[55em] mx-auto md:top-[-22em] md:left-[9em] lg:top-[-39em] lg:left-[39em] z-[10] top-[-9em] left-[-2em] sm:top-[-16em]">
+          <div className="relative w-full sm:w-3/4 md:w-[450px] lg:w-[450px] xl:w-[70%] xl:top-[-55em] xl:left-[55em] mx-auto md:top-[-22em] md:left-[9em] lg:top-[-39em] lg:left-[39em] z-[10] top-[-9em] left-[-2em] sm:top-[-16em] xl:mt-[3em] lg:mt-0 md:mt-0 sm:mt-0">
             <div
               data-aos="fade-left"
               data-aos-delay="200"
               data-aos-once="true"
               data-aos-easing="linear"
-              className="flex justify-center items-center sm:mt-[-30px] md:mt-[-20px]">
-              <Carousel className="h-[200px] sm:h-[250px]  lg:h-[400px] md:w-[400px] xl:w-[620px] w-[200px] ml-16 xl:ml-2 rounded-[10px] xl:h-[550px]" />
+              className="flex justify-center items-center sm:mt-[-30px] md:mt-[-20px] xl:mt-8">
+              <Carousel className="h-[200px] sm:h-[250px]  lg:h-[400px] md:w-[400px] xl:w-[620px] w-[200px] ml-16 xl:ml-2 rounded-[10px] xl:h-[550px] xl:mt-7 lg:mt-10" />
             </div>
           </div>
         </section>
