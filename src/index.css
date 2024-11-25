@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .active {
+    @apply text-primary;
+  }
+}
+
+@font-face {
+  font-family: next;
+  src: url(./assets/font/Next\ Custom.ttf);
+}
+@font-face {
+  font-family: ethno;
+  src:url(./assets/font/ethno.otf);
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* *{
+  overflow-x: hidden;
+} */
+
+.title{
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+.main{
+  font-family: ethno;
+}
+/* .mainText{
+  font-family: next;
+} */
+.image{
+  box-shadow: 3px 5px 10px rgba(49, 49, 49, 0.658);
+}
