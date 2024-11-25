@@ -59,7 +59,7 @@ const Hero = () => {
                       data-aos-delay="200"
                       data-aos-once="true"
                       data-aos-easing="linear"
-                      className="pt-5 sm:mt-2 md:mt-[-1%] xl:ml-[60px] m-auto ml-[4em] lg:ml-[59px] sm:ml-28">
+                      className="pt-5 sm:mt-2 md:mt-[-1%] xl:ml-[60px] m-auto ml-[4em] lg:ml-[95px] sm:ml-28">
                       <button
                         type="button"
                         className="bg-sky-600 hover:bg-sky-700 text-white font-semibold rounded-lg px-6 py-2 text-sm sm:text-base shadow-md md:px-[80px] md:mt-5 md:w-[250px] md:py-3 md:ml-[2px]">
@@ -68,7 +68,7 @@ const Hero = () => {
                     </div>
                   </div>
                   <div className=" h-[250px] sm:h-[300px] md:h-[400px] lg:h-[500px] absolute sm:top-[140%] md:top-[130%]">
-                    <div className="relative w-full sm:w-3/4 md:w-[450px] lg:w-[450px] xl:w-[70%] xl:top-[-18em] xl:left-[40em] mx-auto md:top-[-22em] md:left-[9em] lg:top-[-39em] lg:left-0 z-[10] top-[2em] left-[-2em] sm:top-[-16em] xl:mt-[3em] lg:mt-0 md:mt-0 sm:mt-0">
+                    <div className="relative w-full sm:w-3/4 md:w-[450px] lg:w-[450px] xl:w-[70%] xl:top-[-18em] xl:left-[40em] mx-auto md:top-[-22em] md:left-[9em] lg:top-[-125%] lg:left-[35em] z-[10] top-[2em] left-[-2em] sm:top-[-5em] xl:mt-[3em] lg:mt-0 md:mt-0 sm:mt-0">
                       <div
                         data-aos="fade-left"
                         data-aos-delay="200"
