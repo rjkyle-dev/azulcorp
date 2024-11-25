@@ -25,7 +25,7 @@ const Hero = () => {
                   <div className="text-white px-4 sm:px-10 md:px-12 lg:px-10 xl:px-24 xl:mt-[-220px] md:top-[-12em] relative xl:left-[-100px] xl:top-[20em] lg:left-[-6em] xl:w-[100%] right-14 top-[1.5em] lg:top-[-2em]">
                     <h1
                       data-aos="fade"
-                      className="mainText text-blue-700 text-7xl sm:text-9xl lg:text-9xl xl:text-9xl font-extrabold xl:tracking-[0.40em] tracking-widest sm:text-sky-700 md:text-[10em] md:ml-[145px] xl:ml-20 ml-[1em] lg:ml-[70px]">
+                      className="mainText text-blue-700 text-7xl sm:text-9xl lg:text-9xl xl:text-9xl font-extrabold xl:tracking-[0.40em] tracking-widest sm:text-sky-700 md:text-[10em] md:ml-[145px] xl:ml-20 ml-[1.5em] lg:ml-[70px]">
                       TIDES
                     </h1>
 
@@ -44,7 +44,7 @@ const Hero = () => {
                       data-aos-delay="200"
                       data-aos-once="true"
                       data-aos-easing="linear"
-                      className="w-[230px] ml-[5em] leading-relaxed mt-4 sm:mt-6 xl:w-[500px] tracking-wide font-sans text-sm sm:text-lg xl:text-xl xl:ml-[60px] md:w-[550px] text-justify lg:w-[360px] xl:mt-[1em] sm:w-[400px] sm:ml-28">
+                      className="w-[250px] ml-[5em] leading-relaxed mt-4 sm:mt-6 xl:w-[500px] tracking-wide font-sans text-sm sm:text-lg xl:text-xl xl:ml-[60px] md:w-[550px] text-justify lg:w-[360px] xl:mt-[1em] sm:w-[400px] sm:ml-28">
                       Technology for Intelligent Detection of Ecosystem Species
                       is a cutting-edge system that uses advanced technology to
                       track and identify marine species in their natural
