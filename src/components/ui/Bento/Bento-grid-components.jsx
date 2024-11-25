@@ -118,7 +118,7 @@ const DavaoCity = () => (
     <img
       src={davao} // Replace this with your desired image URL
       alt="Skeleton"
-      className="w-full h-full object-cover"
+      className="w-full h-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
     />
   </div>
 );
@@ -127,7 +127,7 @@ const Samal_Island = () => (
     <img
       src={samal} // Replace this with your desired image URL
       alt="Skeleton"
-      className="w-full h-full object-cover"
+      className="w-full h-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
     />
   </div>
 );
@@ -136,7 +136,7 @@ const Lupons = () => (
     <img
       src={lupon} // Replace this with your desired image URL
       alt="Skeleton"
-      className="w-full h-full object-cover"
+      className="w-full h-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
     />
   </div>
 );
@@ -145,7 +145,7 @@ const Matis = () => (
     <img
       src={mati} // Replace this with your desired image URL
       alt="Skeleton"
-      className="w-full h-full object-cover"
+      className="w-full h-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
     />
   </div>
 );
@@ -154,7 +154,7 @@ const Panabos = () => (
     <img
       src={panabo} // Replace this with your desired image URL
       alt="Skeleton"
-      className="w-full h-full object-cover"
+      className="w-full h-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
     />
   </div>
 );
@@ -163,7 +163,7 @@ const SanSpeciesss = () => (
     <img
       src={SanSpeciess} // Replace this with your desired image URL
       alt="Skeleton"
-      className="w-full h-full object-cover"
+      className="w-full h-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
     />
   </div>
 );
@@ -172,7 +172,7 @@ const Jelly = () => (
     <img
       src={jelly} // Replace this with your desired image URL
       alt="Skeleton"
-      className="w-full h-full object-cover"
+      className="w-full h-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
     />
   </div>
 );
