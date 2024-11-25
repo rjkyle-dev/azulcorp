@@ -17,7 +17,7 @@ const Hero = () => {
       <div className="relative h-screen">
         <section
           id="home"
-          className="h-[120%] w-full overflow-hidden mt-[4em] ">
+          className="h-[120%] w-full overflow-hidden mt-[4em] sm:h-[150%] ">
           <div className=" h-[100%] relative mt-[60px] w-full md:h-[655px] sm:h-[800px] lg:h-[255px] xl:h-[100%] ">
             <div className="w-full mt-[-50px] flex flex-col md:flex-row justify-center items-center gap-36 ">
               <div className="container grid grid-cols-1 gap-4 mb-20 sm:mb-32 sm:top-[-5em] md:mb-44 sm:mt-20 relative">
@@ -67,7 +67,7 @@ const Hero = () => {
                       </button>
                     </div>
                   </div>
-                  <div className=" h-[250px] sm:h-[300px] md:h-[400px] lg:h-[500px] absolute sm:top-[120%]">
+                  <div className=" h-[250px] sm:h-[300px] md:h-[400px] lg:h-[500px] absolute sm:top-[140%]">
                     <div className="relative w-full sm:w-3/4 md:w-[450px] lg:w-[450px] xl:w-[70%] xl:top-[-18em] xl:left-[40em] mx-auto md:top-[-22em] md:left-[9em] lg:top-[-39em] lg:left-0 z-[10] top-[-3em] left-[-2em] sm:top-[-16em] xl:mt-[3em] lg:mt-0 md:mt-0 sm:mt-0">
                       <div
                         data-aos="fade-left"
@@ -89,7 +89,7 @@ const Hero = () => {
         data-aos="fade-up"
         data-aos-delay="200"
         data-aos-duration="1000"
-        className="w-full relative top-[15em] xl:top-[15em]">
+        className="w-full relative top-[15em] xl:top-[15em] sm:top-[20em]">
         <BentoGridDemo />
         <Footer />
       </div>

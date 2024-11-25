@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <>
       <div className="w-full h-full ">
-        <div className="h-[720px] relative overflow-visible">
+        <div className="h-[720px] relative overflow-visible sm:h-[800px] md:h-[700px] lg:h-[750px]">
           <video
             data-aos="fade-in"
             data-aos-duration="2000"
