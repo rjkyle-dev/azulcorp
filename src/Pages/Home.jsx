@@ -9,8 +9,8 @@ const Home = () => {
       <div className="w-full h-full ">
         <div className="h-[700px] relative overflow-visible">
           <video
-            data-aos="fade"
-            data-aos-duration="1000"
+            data-aos="fade-in"
+            data-aos-duration="2000"
             autoPlay
             loop
             muted
