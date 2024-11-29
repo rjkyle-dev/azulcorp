@@ -23,11 +23,11 @@ const BentoGrid = ({ children, className }) => {
 };
 
 // Custom BentoGridItem component
-const BentoGridItem = ({ title, description, image, icon, className }) => {
+const BentoGridItem = ({ title, description, image, className }) => {
   return (
     <div
       className={`p-4 border dark:border-neutral-700 bg-white dark:bg-neutral-900 rounded-lg shadow-sm hover:shadow-lg transition-shadow duration-200 ease-in-out ${className}`}>
-      <div className="flex items-start gap-8">
+      <div className="flex items-start gap-8 flex-col lg:flex-row md:flex-row sm:flex-row">
         <div className="flex-shrink-0">
           <div className="mt-2">{image}</div>
         </div>
@@ -96,8 +96,8 @@ const Lupon = () => (
     biodiversity-rich waters of the Davao Gulf and the Coral Triangle. Its
     marine environment includes coral reefs, mangroves, seagrass beds, and
     estuaries that support a wide variety of marine species. These ecosystems
-    provide critical habitats for commercially important fish, invertebrates,
-    and protected species.
+    provide critical habitats for commercially important fish, invertebrates.
+    
   </h3>
 );
 const San_Isidro = () => (
@@ -120,7 +120,7 @@ const Tarragona = () => (
 );
 
 const DavaoCity = () => (
-  <div className="flex w-full h-[230px] rounded-xl overflow-hidden ">
+  <div className="flex w-full h-[230px] lg:h-[230px] lg:w-[250px] sm:w-[250px]  rounded-xl overflow-hidden ">
     <img
       src={davao} // Replace this with your desired image URL
       alt="Skeleton"
@@ -151,7 +151,7 @@ const Matis = () => (
     <img
       src={mati} // Replace this with your desired image URL
       alt="Skeleton"
-      className="w-[250px] h-[250px] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
+      className="w-[250px] h-[250px]  object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
     />
   </div>
 );
