@@ -2,8 +2,8 @@
 /* eslint-disable no-unused-vars */
 import Footer from "../../components/Footer/Footer";
 import { ThreeDCardDemo } from "../ui/3d-card-components";
-import { Map } from "../ui/3d/3d-card-components";
-import { PH } from "../ui/3ds/3d-card-components";
+import { PH } from "../ui/3d-components2";
+import { Map } from "../ui/3d-card-components3";
 
 import React from "react";
 

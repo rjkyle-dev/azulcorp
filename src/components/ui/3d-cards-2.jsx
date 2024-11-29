@@ -9,7 +9,7 @@ import React, {
   useRef,
   useEffect,
 } from "react";
-import { cn } from "../../../lib/3d";
+import { cn } from "../../lib/3d";
 
 const MouseEnterContext = createContext(undefined);
 

@@ -2,9 +2,9 @@
 "use client";
 
 import React from "react";
-import ph from "../../../assets/image/ph.png";
+import ph from "../../assets/image/Ph.png";
 // import landing from "../../assets/image/landing.png";
-import { CardBody, CardContainer, CardItem } from "./3d-cards";
+import { CardBody, CardContainer, CardItem } from "./3d-cards-2";
 
 export function PH() {
   return (

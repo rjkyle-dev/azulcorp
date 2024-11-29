@@ -2,9 +2,9 @@
 "use client";
 
 import React from "react";
-import map from "../../../assets/image/map.png";
+import map from "../../assets/image/map.png";
 // import landing from "../../assets/image/landing.png";
-import { CardBody, CardContainer, CardItem } from "./3d-cards";
+import { CardBody, CardContainer, CardItem } from "./3d-cards3";
 
 export function Map() {
   return (
