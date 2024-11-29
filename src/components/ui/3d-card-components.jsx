@@ -2,7 +2,7 @@
 "use client";
 
 import React from "react";
-import landing from "../../assets/image/landing.png";
+import landing from "../../../src/assets/image/landing.png";
 import { CardBody, CardContainer, CardItem } from "./3d-cards";
 
 export function ThreeDCardDemo() {
