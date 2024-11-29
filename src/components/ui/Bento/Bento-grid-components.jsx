@@ -29,7 +29,7 @@ const BentoGridItem = ({ title, description, image, className }) => {
       className={`p-4 border dark:border-neutral-700 bg-white dark:bg-neutral-900 rounded-lg shadow-sm hover:shadow-lg transition-shadow duration-200 ease-in-out ${className}`}>
       <div className="flex items-start gap-8 flex-col lg:flex-row md:flex-row sm:flex-row">
         <div className="flex-shrink-0">
-          <div className="mt-2">{image}</div>
+          <div className="mt-2 w-full">{image}</div>
         </div>
         <div>
           <h3 className="text-[2rem] font-bold text-neutral-800 dark:text-white">
