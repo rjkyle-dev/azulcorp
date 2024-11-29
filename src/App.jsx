@@ -25,8 +25,8 @@ const App = () => {
   }, []);
   return (
     <>
-      <BrowserRouter>
-      {/* <BrowserRouter basename="/azulcorp"> */}
+      {/* <BrowserRouter> */}
+      <BrowserRouter basename="/azulcorp">
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
