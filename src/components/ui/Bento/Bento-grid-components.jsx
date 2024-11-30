@@ -16,7 +16,7 @@ import Logo from "../../../assets/logo.png";
 const BentoGrid = ({ children, className }) => {
   return (
     <div
-      className={`grid gap-40 grid-cols-1 md:grid-cols-1 lg:grid-cols-1 ${className}`}>
+      className={`grid gap-20 grid-cols-1 md:grid-cols-1 lg:grid-cols-1 ${className}`}>
       {children}
     </div>
   );
@@ -26,7 +26,7 @@ const BentoGrid = ({ children, className }) => {
 const BentoGridItem = ({ title, description, image, className }) => {
   return (
     <div
-      className={`p-4 border dark:border-neutral-700 bg-white dark:bg-neutral-900 rounded-lg shadow-sm hover:shadow-lg transition-shadow duration-200 ease-in-out ${className}`}>
+      className={`p-4 hover:border-neutral-700 bg-white dark:bg-neutral-900 rounded-lg shadow-sm hover:shadow-lg transition-shadow duration-200 ease-in-out ${className}`}>
       <div className="flex items-start gap-8 flex-col lg:flex-row md:flex-row sm:flex-row">
         <div className="flex-shrink-0">
           <div className="mt-2">{image}</div>
@@ -120,7 +120,7 @@ const Tarragona = () => (
 );
 
 const DavaoCity = () => (
-  <div className="flex w-full h-[230px] lg:h-[230px] lg:w-[250px] sm:w-[250px]  rounded-xl overflow-hidden ">
+  <div className="flex w-full h-[230px]  rounded-xl overflow-hidden ">
     <img
       src={davao} // Replace this with your desired image URL
       alt="Skeleton"

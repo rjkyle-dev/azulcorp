@@ -48,8 +48,8 @@ const Feature = () => {
             // data-aos-once="true"
             data-aos-easing="linear">
             <ThreeDCardDemo />
-            <Map />
             <PH />
+            <Map />
             {/* <Map /> */}
             {/* <ThreeDCardDemo /> */}
           </div>
