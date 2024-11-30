@@ -17,7 +17,7 @@ const Feature = () => {
           <div className="container pt-12 sm:pt-16 md:pt-20 lg:pt-24">
             <div data-aos="slide-down" className="text-center">
               <h1 className="text-blue-600 font-bold tracking-[0.22em] leading-tight text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
-                Why Choose Us..
+                Why Choose Us...
               </h1>
             </div>
             <div
