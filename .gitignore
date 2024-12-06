@@ -1,0 +1,31 @@
+# Ignore the environment file
+# .env# Ignore the environment file
+.env
+# REACT_APP_WEB3FORMS_ACCESS_KEY=8afeb3ab-6ae3-4a02-aa60-be5def115643
+
+# Node modules folder
+node_modules/
+
+# Build output
+build/
+
+# Logs
+*.log
+
+# Ignore OS or editor-specific files
+.DS_Store
+.vscode/
+
+
+# Node modules folder
+node_modules/
+
+# Build output
+build/
+
+# Logs
+*.log
+
+# Ignore OS or editor-specific files
+.DS_Store
+.vscode/
