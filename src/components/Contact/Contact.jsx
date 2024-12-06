@@ -4,6 +4,32 @@ import React from "react";
 import Footer from "../../components/Footer/Footer";
 import fish from "../../assets/image/fish.png";
 
+export default function Contact() {
+  const [result, setResult] = React.useState("");
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "YOUR_ACCESS_KEY_HERE");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData,
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setResult("Form Submitted Successfully");
+      event.target.reset();
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
+    }
+  };
+
 const Contact = () => {
   return (
     <>
@@ -48,7 +74,9 @@ const Contact = () => {
             data-aos-easing="ease-out-in"
             className="flex justify-center lg:justify-end">
             <div className="flex flex-col justify-center items-center gap-5 mt-10 lg:mt-10 bg-indigo-300 py-10 w-full sm:w-[400px] rounded-2xl">
+              <form action="">
               <div className="w-[90%]">
+                <input type="hidden" name="access_key" value="8afeb3ab-6ae3-4a02-aa60-be5def115643"></input>
                 <input
                   type="text"
                   placeholder="Name"
@@ -70,6 +98,7 @@ const Contact = () => {
                   className="outline-none w-full text-[15px] rounded-md px-4 py-2"
                 />
               </div>
+              </form>
               <div className="w-[90%] text-center">
                 <button className="w-full h-[40px] bg-blue-600 text-white rounded-md font-bold font-sans transition ease-in-out delay-100 hover:bg-blue-500">
                   Submit
