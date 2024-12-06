@@ -1,6 +1,6 @@
 # Ignore the environment file
 # .env# Ignore the environment file
-.env
+process.env
 # REACT_APP_WEB3FORMS_ACCESS_KEY=8afeb3ab-6ae3-4a02-aa60-be5def115643
 
 # Node modules folder
