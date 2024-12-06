@@ -13,7 +13,9 @@ const Contact = () => {
     const formData = new FormData(event.target);
 
     // Use environment variables for access key
-    formData.append("access_key", process.env.REACT_APP_WEB3FORMS_ACCESS_KEY);
+    // formData.append("access_key", process.env.REACT_APP_WEB3FORMS_ACCESS_KEY);
+    formData.append("access_key", "70df15dd-26ba-4889-aab2-517ffb8e9598");
+
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
@@ -69,10 +71,11 @@ const Contact = () => {
             className="flex justify-center lg:justify-end">
             <div className="flex flex-col justify-center items-center gap-5 mt-10 lg:mt-14 bg-indigo-300 py-10 w-full sm:w-[400px] rounded-2xl">
               <form onSubmit={onSubmit} className="w-[90%] flex flex-col gap-4">
-                <input
+                
+                <in
                   type="hidden"
                   name="access_key"
-                  value="70df15dd-26ba-4889-aab2-517ffb8e9598"></input>
+                  value="70df15dd-26ba-4889-aab2-517ffb8e9598" />
                 <input
                   type="hidden"
                   name="access_key"
