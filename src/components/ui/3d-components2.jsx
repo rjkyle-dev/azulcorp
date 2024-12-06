@@ -13,7 +13,7 @@ export function PH() {
         <CardItem
           translateZ="50"
           className="text-lg sm:text-xl font-bold text-neutral-600 dark:text-white">
-          Start Your Marine Adventure
+          {/* Start Your Marine Adventure */}
         </CardItem>
         <CardItem
           as="p"

@@ -12,7 +12,7 @@ export function ThreeDCardDemo() {
         <CardItem
           translateZ="50"
           className="text-lg sm:text-xl font-bold text-neutral-600 dark:text-white">
-          Landing Page
+          {/* Landing Page */}
         </CardItem>
         <CardItem
           as="p"

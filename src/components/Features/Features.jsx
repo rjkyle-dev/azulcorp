@@ -69,6 +69,44 @@ const Feature = () => {
             data-aos-easing="linear">
             <Maps />
           </div> */}
+          <div className="grid grid-cols-2 grid-row-2 gap-20">
+            <div className="mb-8">
+              <h3
+                data-aos="fade"
+                data-aos-duration="1000"
+                className="text-black text-lg sm:text-xl md:text-2xl font-bold tracking-[0.12em]">
+                Mission
+              </h3>
+              <p
+                data-aos="fade-in"
+                data-aos-delay="200"
+                data-aos-duration="1000"
+                // data-aos-once="true"
+                data-aos-easing="linear"
+                className="bg-sky-200 text-black text-sm sm:text-base md:text-lg p-4 mt-3 rounded-lg leading-relaxed text-justify hover:bg-sky-300 hover:shadow-lg hover:scale-[1.01]">
+                To provide innovative technology and accessible information that
+                educates and empowers communities to protect marine ecosystems.
+              </p>
+            </div>
+            <div className="mb-8">
+              <h3
+                data-aos="fade"
+                data-aos-duration="1000"
+                className="text-black text-lg sm:text-xl md:text-2xl font-bold tracking-[0.12em]">
+                Vision{" "}
+              </h3>
+              <p
+                data-aos="fade-in"
+                data-aos-delay="200"
+                data-aos-duration="1000"
+                // data-aos-once="true"
+                data-aos-easing="linear"
+                className="bg-sky-200 text-black text-sm sm:text-base md:text-lg p-4 mt-3 rounded-lg leading-relaxed text-justify hover:bg-sky-300 hover:shadow-lg hover:scale-[1.01]">
+                To be a global leader in fostering awareness and action for
+                sustainable ocean conservation.
+              </p>
+            </div>
+          </div>
           <div className="container pt-12 sm:pt-16 md:pt-20 lg:pt-24">
             <div className="text-center mb-6">
               <h2 className="text-blue-600 text-2xl sm:text-3xl md:text-4xl font-bold tracking-[0.22em] pb-2">
@@ -76,7 +114,7 @@ const Feature = () => {
               </h2>
             </div>
 
-            <div className="mb-8">
+            {/* <div className="mb-8">
               <h3
                 data-aos="fade"
                 data-aos-duration="1000"
@@ -95,7 +133,7 @@ const Feature = () => {
                 impact, protect delicate marine ecosystems, and ensure future
                 generations can experience the beauty of the oceans.
               </p>
-            </div>
+            </div> */}
 
             <div className="mb-8">
               <h3
