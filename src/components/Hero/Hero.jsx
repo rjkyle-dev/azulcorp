@@ -59,7 +59,7 @@ const Hero = () => {
                       data-aos-delay="200"
                       data-aos-once="true"
                       data-aos-easing="linear"
-                      className="pt-5 sm:mt-2 md:mt-[-1%] xl:ml-[60px] m-auto ml-[4em] lg:ml-[95px] sm:ml-28">
+                      className="pt-5 sm:mt-2 md:mt-[-1%] xl:ml-[60px] m-auto ml-[4em] lg:ml-[95px] sm:ml-28 lg:w-200px">
                       <button
                         type="button"
                         className="bg-sky-600 hover:bg-sky-700 text-white font-semibold rounded-lg px-6 py-2 text-sm sm:text-base shadow-md md:px-[80px] md:mt-5 md:w-[250px] md:py-3 md:ml-[2px]">
